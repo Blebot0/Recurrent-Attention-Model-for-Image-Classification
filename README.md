@@ -19,7 +19,7 @@ This repository contains a PyTorch implementation of the Recurrent Attention Mod
 1. Clone the repository:
 ```bash
 git clone <repository-url>
-cd Recurrent-Modeling_Of_Visual-Attention_for_ImageClassification
+cd Recurrent-Attention-Model-for-Image-Classification
 ```
 
 2. Install dependencies:
