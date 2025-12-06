@@ -1,4 +1,4 @@
-# Recurrent Models of Visual Attention for Image Classification
+# Recurrent Attention Model for Image Classification
 
 Implementation of the Recurrent Attention Model for Image Classification
 
