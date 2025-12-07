@@ -1,0 +1,1131 @@
+2025-12-06 18:32:19 - RAM_Training - INFO - ================================================================================
+2025-12-06 18:32:19 - RAM_Training - INFO - RECURRENT ATTENTION MODEL - TRAINING SESSION
+2025-12-06 18:32:19 - RAM_Training - INFO - ================================================================================
+2025-12-06 18:32:19 - RAM_Training - INFO - Experiment: mnist_g6_h256
+2025-12-06 18:32:19 - RAM_Training - INFO - Timestamp: 2025-12-06 18:32:19
+2025-12-06 18:32:19 - RAM_Training - INFO - 
+2025-12-06 18:32:19 - RAM_Training - INFO - Configuration:
+2025-12-06 18:32:19 - RAM_Training - INFO -   Dataset: mnist
+2025-12-06 18:32:19 - RAM_Training - INFO -   Image Size: 28x28
+2025-12-06 18:32:19 - RAM_Training - INFO -   Num Glimpses: 6
+2025-12-06 18:32:19 - RAM_Training - INFO -   Glimpse Size: 8
+2025-12-06 18:32:19 - RAM_Training - INFO -   Num Scales: 1
+2025-12-06 18:32:19 - RAM_Training - INFO -   Hidden Size: 256
+2025-12-06 18:32:19 - RAM_Training - INFO -   Num Epochs: 100
+2025-12-06 18:32:19 - RAM_Training - INFO -   Batch Size: 64
+2025-12-06 18:32:19 - RAM_Training - INFO -   Learning Rate: 0.001
+2025-12-06 18:32:19 - RAM_Training - INFO -   Momentum: 0.9
+2025-12-06 18:32:19 - RAM_Training - INFO -   Device: cpu
+2025-12-06 18:32:19 - RAM_Training - INFO - 
+2025-12-06 18:32:19 - RAM_Training - INFO - Loading datasets...
+2025-12-06 18:32:19 - RAM_Training - INFO -   Train samples: 60000
+2025-12-06 18:32:19 - RAM_Training - INFO -   Test samples: 10000
+2025-12-06 18:32:19 - RAM_Training - INFO -   Train batches: 938
+2025-12-06 18:32:19 - RAM_Training - INFO -   Test batches: 157
+2025-12-06 18:32:19 - RAM_Training - INFO - 
+2025-12-06 18:32:19 - RAM_Training - INFO - Initializing model...
+2025-12-06 18:32:19 - RAM_Training - INFO -   Total parameters: 209,421
+2025-12-06 18:32:19 - RAM_Training - INFO -   Trainable parameters: 209,421
+2025-12-06 18:32:19 - RAM_Training - INFO - 
+2025-12-06 18:32:19 - RAM_Training - INFO - Initializing trainer...
+2025-12-06 18:32:19 - RAM_Training - INFO -   Optimizer: SGD
+2025-12-06 18:32:19 - RAM_Training - INFO - 
+2025-12-06 18:32:19 - RAM_Training - INFO - ================================================================================
+2025-12-06 18:32:19 - RAM_Training - INFO - STARTING TRAINING
+2025-12-06 18:32:19 - RAM_Training - INFO - ================================================================================
+2025-12-06 18:32:19 - RAM_Training - INFO - 
+2025-12-06 18:41:04 - RAM_Training - INFO - Evaluating epoch 1...
+2025-12-06 18:41:37 - RAM_Training - INFO - 
+2025-12-06 18:41:37 - RAM_Training - INFO - Epoch 1/100 Summary:
+2025-12-06 18:41:37 - RAM_Training - INFO -   Train Loss: 1.975689
+2025-12-06 18:41:37 - RAM_Training - INFO -   Train Accuracy: 0.3917
+2025-12-06 18:41:37 - RAM_Training - INFO -   Test Accuracy: 0.4592
+2025-12-06 18:41:37 - RAM_Training - INFO -   Action Loss: 1.790635
+2025-12-06 18:41:37 - RAM_Training - INFO -   Location Loss: 0.079660
+2025-12-06 18:41:37 - RAM_Training - INFO -   Value Loss: 0.272634
+2025-12-06 18:41:37 - RAM_Training - INFO -   ✓ NEW BEST MODEL! Accuracy: 0.4592
+2025-12-06 18:41:37 - RAM_Training - INFO -     Saved to: checkpoints/mnist_best.pth
+2025-12-06 18:41:39 - RAM_Training - INFO - 
+2025-12-06 18:50:45 - RAM_Training - INFO - Evaluating epoch 2...
+2025-12-06 18:51:18 - RAM_Training - INFO - 
+2025-12-06 18:51:18 - RAM_Training - INFO - Epoch 2/100 Summary:
+2025-12-06 18:51:18 - RAM_Training - INFO -   Train Loss: 1.835912
+2025-12-06 18:51:18 - RAM_Training - INFO -   Train Accuracy: 0.5955
+2025-12-06 18:51:18 - RAM_Training - INFO -   Test Accuracy: 0.6426
+2025-12-06 18:51:18 - RAM_Training - INFO -   Action Loss: 1.537280
+2025-12-06 18:51:18 - RAM_Training - INFO -   Location Loss: 0.120197
+2025-12-06 18:51:18 - RAM_Training - INFO -   Value Loss: 0.357403
+2025-12-06 18:51:18 - RAM_Training - INFO -   ✓ NEW BEST MODEL! Accuracy: 0.6426
+2025-12-06 18:51:18 - RAM_Training - INFO -     Saved to: checkpoints/mnist_best.pth
+2025-12-06 18:51:19 - RAM_Training - INFO - 
+2025-12-06 19:00:07 - RAM_Training - INFO - Evaluating epoch 3...
+2025-12-06 19:00:40 - RAM_Training - INFO - 
+2025-12-06 19:00:40 - RAM_Training - INFO - Epoch 3/100 Summary:
+2025-12-06 19:00:40 - RAM_Training - INFO -   Train Loss: 1.738029
+2025-12-06 19:00:40 - RAM_Training - INFO -   Train Accuracy: 0.6646
+2025-12-06 19:00:40 - RAM_Training - INFO -   Test Accuracy: 0.6635
+2025-12-06 19:00:40 - RAM_Training - INFO -   Action Loss: 1.463714
+2025-12-06 19:00:40 - RAM_Training - INFO -   Location Loss: 0.112884
+2025-12-06 19:00:40 - RAM_Training - INFO -   Value Loss: 0.323131
+2025-12-06 19:00:40 - RAM_Training - INFO -   ✓ NEW BEST MODEL! Accuracy: 0.6635
+2025-12-06 19:00:40 - RAM_Training - INFO -     Saved to: checkpoints/mnist_best.pth
+2025-12-06 19:00:41 - RAM_Training - INFO - 
+2025-12-06 19:08:59 - RAM_Training - INFO - Evaluating epoch 4...
+2025-12-06 19:09:31 - RAM_Training - INFO - 
+2025-12-06 19:09:31 - RAM_Training - INFO - Epoch 4/100 Summary:
+2025-12-06 19:09:31 - RAM_Training - INFO -   Train Loss: 1.531824
+2025-12-06 19:09:31 - RAM_Training - INFO -   Train Accuracy: 0.7274
+2025-12-06 19:09:31 - RAM_Training - INFO -   Test Accuracy: 0.7075
+2025-12-06 19:09:31 - RAM_Training - INFO -   Action Loss: 1.302860
+2025-12-06 19:09:31 - RAM_Training - INFO -   Location Loss: 0.095253
+2025-12-06 19:09:31 - RAM_Training - INFO -   Value Loss: 0.267868
+2025-12-06 19:09:31 - RAM_Training - INFO -   ✓ NEW BEST MODEL! Accuracy: 0.7075
+2025-12-06 19:09:31 - RAM_Training - INFO -     Saved to: checkpoints/mnist_best.pth
+2025-12-06 19:09:32 - RAM_Training - INFO - 
+2025-12-06 19:17:53 - RAM_Training - INFO - Evaluating epoch 5...
+2025-12-06 19:18:25 - RAM_Training - INFO - 
+2025-12-06 19:18:25 - RAM_Training - INFO - Epoch 5/100 Summary:
+2025-12-06 19:18:25 - RAM_Training - INFO -   Train Loss: 1.432234
+2025-12-06 19:18:25 - RAM_Training - INFO -   Train Accuracy: 0.7554
+2025-12-06 19:18:25 - RAM_Training - INFO -   Test Accuracy: 0.7618
+2025-12-06 19:18:25 - RAM_Training - INFO -   Action Loss: 1.227621
+2025-12-06 19:18:25 - RAM_Training - INFO -   Location Loss: 0.084411
+2025-12-06 19:18:25 - RAM_Training - INFO -   Value Loss: 0.242034
+2025-12-06 19:18:25 - RAM_Training - INFO -   ✓ NEW BEST MODEL! Accuracy: 0.7618
+2025-12-06 19:18:25 - RAM_Training - INFO -     Saved to: checkpoints/mnist_best.pth
+2025-12-06 19:18:28 - RAM_Training - INFO - 
+2025-12-06 19:26:48 - RAM_Training - INFO - Evaluating epoch 6...
+2025-12-06 19:27:20 - RAM_Training - INFO - 
+2025-12-06 19:27:58 - RAM_Training - INFO - Epoch 6/100 Summary:
+2025-12-06 19:27:58 - RAM_Training - INFO -   Train Loss: 1.430356
+2025-12-06 19:27:58 - RAM_Training - INFO -   Train Accuracy: 0.7645
+2025-12-06 19:27:58 - RAM_Training - INFO -   Test Accuracy: 0.7296
+2025-12-06 19:27:58 - RAM_Training - INFO -   Action Loss: 1.232810
+2025-12-06 19:27:58 - RAM_Training - INFO -   Location Loss: 0.081492
+2025-12-06 19:27:58 - RAM_Training - INFO -   Value Loss: 0.233721
+2025-12-06 19:27:59 - RAM_Training - INFO - 
+2025-12-06 19:36:21 - RAM_Training - INFO - Evaluating epoch 7...
+2025-12-06 19:36:53 - RAM_Training - INFO - 
+2025-12-06 19:36:53 - RAM_Training - INFO - Epoch 7/100 Summary:
+2025-12-06 19:36:53 - RAM_Training - INFO -   Train Loss: 1.364618
+2025-12-06 19:36:53 - RAM_Training - INFO -   Train Accuracy: 0.7788
+2025-12-06 19:36:53 - RAM_Training - INFO -   Test Accuracy: 0.8168
+2025-12-06 19:36:53 - RAM_Training - INFO -   Action Loss: 1.177527
+2025-12-06 19:36:53 - RAM_Training - INFO -   Location Loss: 0.077478
+2025-12-06 19:36:53 - RAM_Training - INFO -   Value Loss: 0.219984
+2025-12-06 19:36:53 - RAM_Training - INFO -   ✓ NEW BEST MODEL! Accuracy: 0.8168
+2025-12-06 19:36:53 - RAM_Training - INFO -     Saved to: checkpoints/mnist_best.pth
+2025-12-06 19:36:55 - RAM_Training - INFO - 
+2025-12-06 19:45:21 - RAM_Training - INFO - Evaluating epoch 8...
+2025-12-06 19:45:53 - RAM_Training - INFO - 
+2025-12-06 19:45:53 - RAM_Training - INFO - Epoch 8/100 Summary:
+2025-12-06 19:45:53 - RAM_Training - INFO -   Train Loss: 1.229439
+2025-12-06 19:45:53 - RAM_Training - INFO -   Train Accuracy: 0.8056
+2025-12-06 19:45:53 - RAM_Training - INFO -   Test Accuracy: 0.8157
+2025-12-06 19:45:53 - RAM_Training - INFO -   Action Loss: 1.064758
+2025-12-06 19:45:53 - RAM_Training - INFO -   Location Loss: 0.068464
+2025-12-06 19:45:53 - RAM_Training - INFO -   Value Loss: 0.193596
+2025-12-06 19:45:56 - RAM_Training - INFO - 
+2025-12-06 19:54:29 - RAM_Training - INFO - Evaluating epoch 9...
+2025-12-06 19:55:01 - RAM_Training - INFO - 
+2025-12-06 19:55:01 - RAM_Training - INFO - Epoch 9/100 Summary:
+2025-12-06 19:55:01 - RAM_Training - INFO -   Train Loss: 1.107055
+2025-12-06 19:55:01 - RAM_Training - INFO -   Train Accuracy: 0.8267
+2025-12-06 19:55:01 - RAM_Training - INFO -   Test Accuracy: 0.8472
+2025-12-06 19:55:01 - RAM_Training - INFO -   Action Loss: 0.960623
+2025-12-06 19:55:01 - RAM_Training - INFO -   Location Loss: 0.061133
+2025-12-06 19:55:01 - RAM_Training - INFO -   Value Loss: 0.172710
+2025-12-06 19:55:01 - RAM_Training - INFO -   ✓ NEW BEST MODEL! Accuracy: 0.8472
+2025-12-06 19:55:01 - RAM_Training - INFO -     Saved to: checkpoints/mnist_best.pth
+2025-12-06 19:55:03 - RAM_Training - INFO - 
+2025-12-06 20:03:26 - RAM_Training - INFO - Evaluating epoch 10...
+2025-12-06 20:03:58 - RAM_Training - INFO - 
+2025-12-06 20:03:58 - RAM_Training - INFO - Epoch 10/100 Summary:
+2025-12-06 20:03:58 - RAM_Training - INFO -   Train Loss: 1.008294
+2025-12-06 20:03:58 - RAM_Training - INFO -   Train Accuracy: 0.8443
+2025-12-06 20:03:58 - RAM_Training - INFO -   Test Accuracy: 0.8419
+2025-12-06 20:03:58 - RAM_Training - INFO -   Action Loss: 0.877096
+2025-12-06 20:03:58 - RAM_Training - INFO -   Location Loss: 0.055005
+2025-12-06 20:03:58 - RAM_Training - INFO -   Value Loss: 0.155241
+2025-12-06 20:03:59 - RAM_Training - INFO - 
+2025-12-06 20:12:21 - RAM_Training - INFO - Evaluating epoch 11...
+2025-12-06 20:12:54 - RAM_Training - INFO - 
+2025-12-06 20:12:54 - RAM_Training - INFO - Epoch 11/100 Summary:
+2025-12-06 20:12:54 - RAM_Training - INFO -   Train Loss: 0.923963
+2025-12-06 20:12:54 - RAM_Training - INFO -   Train Accuracy: 0.8559
+2025-12-06 20:12:54 - RAM_Training - INFO -   Test Accuracy: 0.8643
+2025-12-06 20:12:54 - RAM_Training - INFO -   Action Loss: 0.803425
+2025-12-06 20:12:54 - RAM_Training - INFO -   Location Loss: 0.050189
+2025-12-06 20:12:54 - RAM_Training - INFO -   Value Loss: 0.143741
+2025-12-06 20:12:54 - RAM_Training - INFO -   ✓ NEW BEST MODEL! Accuracy: 0.8643
+2025-12-06 20:12:54 - RAM_Training - INFO -     Saved to: checkpoints/mnist_best.pth
+2025-12-06 20:12:56 - RAM_Training - INFO - 
+2025-12-06 20:21:39 - RAM_Training - INFO - Evaluating epoch 12...
+2025-12-06 20:22:11 - RAM_Training - INFO - 
+2025-12-06 20:22:11 - RAM_Training - INFO - Epoch 12/100 Summary:
+2025-12-06 20:22:11 - RAM_Training - INFO -   Train Loss: 0.885425
+2025-12-06 20:22:11 - RAM_Training - INFO -   Train Accuracy: 0.8628
+2025-12-06 20:22:11 - RAM_Training - INFO -   Test Accuracy: 0.8645
+2025-12-06 20:22:11 - RAM_Training - INFO -   Action Loss: 0.769090
+2025-12-06 20:22:11 - RAM_Training - INFO -   Location Loss: 0.049671
+2025-12-06 20:22:11 - RAM_Training - INFO -   Value Loss: 0.136874
+2025-12-06 20:22:11 - RAM_Training - INFO -   ✓ NEW BEST MODEL! Accuracy: 0.8645
+2025-12-06 20:22:11 - RAM_Training - INFO -     Saved to: checkpoints/mnist_best.pth
+2025-12-06 20:22:14 - RAM_Training - INFO - 
+2025-12-06 20:30:43 - RAM_Training - INFO - Evaluating epoch 13...
+2025-12-06 20:31:15 - RAM_Training - INFO - 
+2025-12-06 20:31:15 - RAM_Training - INFO - Epoch 13/100 Summary:
+2025-12-06 20:31:15 - RAM_Training - INFO -   Train Loss: 0.852634
+2025-12-06 20:31:15 - RAM_Training - INFO -   Train Accuracy: 0.8698
+2025-12-06 20:31:15 - RAM_Training - INFO -   Test Accuracy: 0.8747
+2025-12-06 20:31:15 - RAM_Training - INFO -   Action Loss: 0.743473
+2025-12-06 20:31:15 - RAM_Training - INFO -   Location Loss: 0.046180
+2025-12-06 20:31:15 - RAM_Training - INFO -   Value Loss: 0.129947
+2025-12-06 20:31:16 - RAM_Training - INFO -   ✓ NEW BEST MODEL! Accuracy: 0.8747
+2025-12-06 20:31:16 - RAM_Training - INFO -     Saved to: checkpoints/mnist_best.pth
+2025-12-06 20:31:19 - RAM_Training - INFO - 
+2025-12-06 20:39:47 - RAM_Training - INFO - Evaluating epoch 14...
+2025-12-06 20:40:19 - RAM_Training - INFO - 
+2025-12-06 20:40:19 - RAM_Training - INFO - Epoch 14/100 Summary:
+2025-12-06 20:40:19 - RAM_Training - INFO -   Train Loss: 0.787091
+2025-12-06 20:40:19 - RAM_Training - INFO -   Train Accuracy: 0.8777
+2025-12-06 20:40:19 - RAM_Training - INFO -   Test Accuracy: 0.8764
+2025-12-06 20:40:19 - RAM_Training - INFO -   Action Loss: 0.684809
+2025-12-06 20:40:19 - RAM_Training - INFO -   Location Loss: 0.043381
+2025-12-06 20:40:19 - RAM_Training - INFO -   Value Loss: 0.122006
+2025-12-06 20:40:19 - RAM_Training - INFO -   ✓ NEW BEST MODEL! Accuracy: 0.8764
+2025-12-06 20:40:19 - RAM_Training - INFO -     Saved to: checkpoints/mnist_best.pth
+2025-12-06 20:40:20 - RAM_Training - INFO - 
+2025-12-06 20:48:51 - RAM_Training - INFO - Evaluating epoch 15...
+2025-12-06 20:49:24 - RAM_Training - INFO - 
+2025-12-06 20:49:24 - RAM_Training - INFO - Epoch 15/100 Summary:
+2025-12-06 20:49:24 - RAM_Training - INFO -   Train Loss: 0.754834
+2025-12-06 20:49:24 - RAM_Training - INFO -   Train Accuracy: 0.8850
+2025-12-06 20:49:24 - RAM_Training - INFO -   Test Accuracy: 0.8865
+2025-12-06 20:49:24 - RAM_Training - INFO -   Action Loss: 0.659247
+2025-12-06 20:49:24 - RAM_Training - INFO -   Location Loss: 0.040063
+2025-12-06 20:49:24 - RAM_Training - INFO -   Value Loss: 0.114786
+2025-12-06 20:49:24 - RAM_Training - INFO -   ✓ NEW BEST MODEL! Accuracy: 0.8865
+2025-12-06 20:49:24 - RAM_Training - INFO -     Saved to: checkpoints/mnist_best.pth
+2025-12-06 20:49:26 - RAM_Training - INFO - 
+2025-12-06 20:58:10 - RAM_Training - INFO - Evaluating epoch 16...
+2025-12-06 20:58:43 - RAM_Training - INFO - 
+2025-12-06 20:58:43 - RAM_Training - INFO - Epoch 16/100 Summary:
+2025-12-06 20:58:43 - RAM_Training - INFO -   Train Loss: 0.709027
+2025-12-06 20:58:43 - RAM_Training - INFO -   Train Accuracy: 0.8922
+2025-12-06 20:58:43 - RAM_Training - INFO -   Test Accuracy: 0.8955
+2025-12-06 20:58:43 - RAM_Training - INFO -   Action Loss: 0.619007
+2025-12-06 20:58:43 - RAM_Training - INFO -   Location Loss: 0.038880
+2025-12-06 20:58:43 - RAM_Training - INFO -   Value Loss: 0.107640
+2025-12-06 20:58:43 - RAM_Training - INFO -   ✓ NEW BEST MODEL! Accuracy: 0.8955
+2025-12-06 20:58:43 - RAM_Training - INFO -     Saved to: checkpoints/mnist_best.pth
+2025-12-06 20:58:45 - RAM_Training - INFO - 
+2025-12-06 21:06:56 - RAM_Training - INFO - Evaluating epoch 17...
+2025-12-06 21:07:28 - RAM_Training - INFO - 
+2025-12-06 21:07:28 - RAM_Training - INFO - Epoch 17/100 Summary:
+2025-12-06 21:07:28 - RAM_Training - INFO -   Train Loss: 0.689789
+2025-12-06 21:07:28 - RAM_Training - INFO -   Train Accuracy: 0.8943
+2025-12-06 21:07:28 - RAM_Training - INFO -   Test Accuracy: 0.8994
+2025-12-06 21:07:28 - RAM_Training - INFO -   Action Loss: 0.600106
+2025-12-06 21:07:28 - RAM_Training - INFO -   Location Loss: 0.039316
+2025-12-06 21:07:28 - RAM_Training - INFO -   Value Loss: 0.105517
+2025-12-06 21:07:29 - RAM_Training - INFO -   ✓ NEW BEST MODEL! Accuracy: 0.8994
+2025-12-06 21:07:29 - RAM_Training - INFO -     Saved to: checkpoints/mnist_best.pth
+2025-12-06 21:07:32 - RAM_Training - INFO - 
+2025-12-06 21:16:03 - RAM_Training - INFO - Evaluating epoch 18...
+2025-12-06 21:16:35 - RAM_Training - INFO - 
+2025-12-06 21:16:35 - RAM_Training - INFO - Epoch 18/100 Summary:
+2025-12-06 21:16:35 - RAM_Training - INFO -   Train Loss: 0.657101
+2025-12-06 21:16:35 - RAM_Training - INFO -   Train Accuracy: 0.8997
+2025-12-06 21:16:35 - RAM_Training - INFO -   Test Accuracy: 0.9009
+2025-12-06 21:16:35 - RAM_Training - INFO -   Action Loss: 0.572346
+2025-12-06 21:16:35 - RAM_Training - INFO -   Location Loss: 0.036898
+2025-12-06 21:16:35 - RAM_Training - INFO -   Value Loss: 0.100175
+2025-12-06 21:16:35 - RAM_Training - INFO -   ✓ NEW BEST MODEL! Accuracy: 0.9009
+2025-12-06 21:16:35 - RAM_Training - INFO -     Saved to: checkpoints/mnist_best.pth
+2025-12-06 21:16:37 - RAM_Training - INFO - 
+2025-12-06 21:25:02 - RAM_Training - INFO - Evaluating epoch 19...
+2025-12-06 21:25:33 - RAM_Training - INFO - 
+2025-12-06 21:25:33 - RAM_Training - INFO - Epoch 19/100 Summary:
+2025-12-06 21:25:33 - RAM_Training - INFO -   Train Loss: 0.642531
+2025-12-06 21:25:33 - RAM_Training - INFO -   Train Accuracy: 0.9017
+2025-12-06 21:25:33 - RAM_Training - INFO -   Test Accuracy: 0.9023
+2025-12-06 21:25:33 - RAM_Training - INFO -   Action Loss: 0.559787
+2025-12-06 21:25:33 - RAM_Training - INFO -   Location Loss: 0.036450
+2025-12-06 21:25:33 - RAM_Training - INFO -   Value Loss: 0.098117
+2025-12-06 21:25:33 - RAM_Training - INFO -   ✓ NEW BEST MODEL! Accuracy: 0.9023
+2025-12-06 21:25:33 - RAM_Training - INFO -     Saved to: checkpoints/mnist_best.pth
+2025-12-06 21:25:35 - RAM_Training - INFO - 
+2025-12-06 21:34:19 - RAM_Training - INFO - Evaluating epoch 20...
+2025-12-06 21:34:51 - RAM_Training - INFO - 
+2025-12-06 21:34:51 - RAM_Training - INFO - Epoch 20/100 Summary:
+2025-12-06 21:34:51 - RAM_Training - INFO -   Train Loss: 0.645958
+2025-12-06 21:34:51 - RAM_Training - INFO -   Train Accuracy: 0.9008
+2025-12-06 21:34:51 - RAM_Training - INFO -   Test Accuracy: 0.9067
+2025-12-06 21:34:51 - RAM_Training - INFO -   Action Loss: 0.562646
+2025-12-06 21:34:51 - RAM_Training - INFO -   Location Loss: 0.036204
+2025-12-06 21:34:51 - RAM_Training - INFO -   Value Loss: 0.099046
+2025-12-06 21:34:52 - RAM_Training - INFO -   ✓ NEW BEST MODEL! Accuracy: 0.9067
+2025-12-06 21:34:52 - RAM_Training - INFO -     Saved to: checkpoints/mnist_best.pth
+2025-12-06 21:34:54 - RAM_Training - INFO - 
+2025-12-06 21:43:04 - RAM_Training - INFO - Evaluating epoch 21...
+2025-12-06 21:43:36 - RAM_Training - INFO - 
+2025-12-06 21:43:36 - RAM_Training - INFO - Epoch 21/100 Summary:
+2025-12-06 21:43:36 - RAM_Training - INFO -   Train Loss: 0.597798
+2025-12-06 21:43:36 - RAM_Training - INFO -   Train Accuracy: 0.9081
+2025-12-06 21:43:36 - RAM_Training - INFO -   Test Accuracy: 0.9107
+2025-12-06 21:43:36 - RAM_Training - INFO -   Action Loss: 0.521643
+2025-12-06 21:43:36 - RAM_Training - INFO -   Location Loss: 0.032866
+2025-12-06 21:43:36 - RAM_Training - INFO -   Value Loss: 0.091739
+2025-12-06 21:43:36 - RAM_Training - INFO -   ✓ NEW BEST MODEL! Accuracy: 0.9107
+2025-12-06 21:43:36 - RAM_Training - INFO -     Saved to: checkpoints/mnist_best.pth
+2025-12-06 21:43:39 - RAM_Training - INFO - 
+2025-12-06 21:51:55 - RAM_Training - INFO - Evaluating epoch 22...
+2025-12-06 21:52:26 - RAM_Training - INFO - 
+2025-12-06 21:52:26 - RAM_Training - INFO - Epoch 22/100 Summary:
+2025-12-06 21:52:26 - RAM_Training - INFO -   Train Loss: 0.580591
+2025-12-06 21:52:26 - RAM_Training - INFO -   Train Accuracy: 0.9105
+2025-12-06 21:52:26 - RAM_Training - INFO -   Test Accuracy: 0.9110
+2025-12-06 21:52:26 - RAM_Training - INFO -   Action Loss: 0.507053
+2025-12-06 21:52:26 - RAM_Training - INFO -   Location Loss: 0.032086
+2025-12-06 21:52:26 - RAM_Training - INFO -   Value Loss: 0.089413
+2025-12-06 21:52:26 - RAM_Training - INFO -   ✓ NEW BEST MODEL! Accuracy: 0.9110
+2025-12-06 21:52:26 - RAM_Training - INFO -     Saved to: checkpoints/mnist_best.pth
+2025-12-06 21:52:28 - RAM_Training - INFO - 
+2025-12-06 22:01:06 - RAM_Training - INFO - Evaluating epoch 23...
+2025-12-06 22:01:38 - RAM_Training - INFO - 
+2025-12-06 22:01:38 - RAM_Training - INFO - Epoch 23/100 Summary:
+2025-12-06 22:01:38 - RAM_Training - INFO -   Train Loss: 0.594053
+2025-12-06 22:01:38 - RAM_Training - INFO -   Train Accuracy: 0.9089
+2025-12-06 22:01:38 - RAM_Training - INFO -   Test Accuracy: 0.9083
+2025-12-06 22:01:38 - RAM_Training - INFO -   Action Loss: 0.516851
+2025-12-06 22:01:38 - RAM_Training - INFO -   Location Loss: 0.034282
+2025-12-06 22:01:38 - RAM_Training - INFO -   Value Loss: 0.090959
+2025-12-06 22:01:41 - RAM_Training - INFO - 
+2025-12-06 22:09:58 - RAM_Training - INFO - Evaluating epoch 24...
+2025-12-06 22:10:30 - RAM_Training - INFO - 
+2025-12-06 22:10:30 - RAM_Training - INFO - Epoch 24/100 Summary:
+2025-12-06 22:10:30 - RAM_Training - INFO -   Train Loss: 0.582296
+2025-12-06 22:10:30 - RAM_Training - INFO -   Train Accuracy: 0.9110
+2025-12-06 22:10:30 - RAM_Training - INFO -   Test Accuracy: 0.9128
+2025-12-06 22:10:30 - RAM_Training - INFO -   Action Loss: 0.507066
+2025-12-06 22:10:30 - RAM_Training - INFO -   Location Loss: 0.033572
+2025-12-06 22:10:30 - RAM_Training - INFO -   Value Loss: 0.088867
+2025-12-06 22:10:30 - RAM_Training - INFO -   ✓ NEW BEST MODEL! Accuracy: 0.9128
+2025-12-06 22:10:30 - RAM_Training - INFO -     Saved to: checkpoints/mnist_best.pth
+2025-12-06 22:10:32 - RAM_Training - INFO - 
+2025-12-06 22:19:11 - RAM_Training - INFO - Evaluating epoch 25...
+2025-12-06 22:19:44 - RAM_Training - INFO - 
+2025-12-06 22:19:44 - RAM_Training - INFO - Epoch 25/100 Summary:
+2025-12-06 22:19:44 - RAM_Training - INFO -   Train Loss: 0.565709
+2025-12-06 22:19:44 - RAM_Training - INFO -   Train Accuracy: 0.9128
+2025-12-06 22:19:44 - RAM_Training - INFO -   Test Accuracy: 0.9089
+2025-12-06 22:19:44 - RAM_Training - INFO -   Action Loss: 0.492406
+2025-12-06 22:19:44 - RAM_Training - INFO -   Location Loss: 0.032613
+2025-12-06 22:19:44 - RAM_Training - INFO -   Value Loss: 0.087107
+2025-12-06 22:19:49 - RAM_Training - INFO - 
+2025-12-06 22:27:58 - RAM_Training - INFO - Evaluating epoch 26...
+2025-12-06 22:28:30 - RAM_Training - INFO - 
+2025-12-06 22:28:30 - RAM_Training - INFO - Epoch 26/100 Summary:
+2025-12-06 22:28:30 - RAM_Training - INFO -   Train Loss: 0.543849
+2025-12-06 22:28:30 - RAM_Training - INFO -   Train Accuracy: 0.9171
+2025-12-06 22:28:30 - RAM_Training - INFO -   Test Accuracy: 0.9269
+2025-12-06 22:28:30 - RAM_Training - INFO -   Action Loss: 0.474321
+2025-12-06 22:28:30 - RAM_Training - INFO -   Location Loss: 0.031103
+2025-12-06 22:28:30 - RAM_Training - INFO -   Value Loss: 0.082755
+2025-12-06 22:28:30 - RAM_Training - INFO -   ✓ NEW BEST MODEL! Accuracy: 0.9269
+2025-12-06 22:28:30 - RAM_Training - INFO -     Saved to: checkpoints/mnist_best.pth
+2025-12-06 22:28:32 - RAM_Training - INFO - 
+2025-12-06 22:37:18 - RAM_Training - INFO - Evaluating epoch 27...
+2025-12-06 22:37:50 - RAM_Training - INFO - 
+2025-12-06 22:37:50 - RAM_Training - INFO - Epoch 27/100 Summary:
+2025-12-06 22:37:50 - RAM_Training - INFO -   Train Loss: 0.518897
+2025-12-06 22:37:50 - RAM_Training - INFO -   Train Accuracy: 0.9210
+2025-12-06 22:37:50 - RAM_Training - INFO -   Test Accuracy: 0.9242
+2025-12-06 22:37:50 - RAM_Training - INFO -   Action Loss: 0.453417
+2025-12-06 22:37:50 - RAM_Training - INFO -   Location Loss: 0.028969
+2025-12-06 22:37:50 - RAM_Training - INFO -   Value Loss: 0.078868
+2025-12-06 22:37:52 - RAM_Training - INFO - 
+2025-12-06 22:46:20 - RAM_Training - INFO - Evaluating epoch 28...
+2025-12-06 22:46:52 - RAM_Training - INFO - 
+2025-12-06 22:46:52 - RAM_Training - INFO - Epoch 28/100 Summary:
+2025-12-06 22:46:52 - RAM_Training - INFO -   Train Loss: 0.511504
+2025-12-06 22:46:52 - RAM_Training - INFO -   Train Accuracy: 0.9218
+2025-12-06 22:46:52 - RAM_Training - INFO -   Test Accuracy: 0.9203
+2025-12-06 22:46:52 - RAM_Training - INFO -   Action Loss: 0.445866
+2025-12-06 22:46:52 - RAM_Training - INFO -   Location Loss: 0.029817
+2025-12-06 22:46:52 - RAM_Training - INFO -   Value Loss: 0.078152
+2025-12-06 22:46:55 - RAM_Training - INFO - 
+2025-12-06 22:55:37 - RAM_Training - INFO - Evaluating epoch 29...
+2025-12-06 22:56:09 - RAM_Training - INFO - 
+2025-12-06 22:56:09 - RAM_Training - INFO - Epoch 29/100 Summary:
+2025-12-06 22:56:09 - RAM_Training - INFO -   Train Loss: 0.471156
+2025-12-06 22:56:09 - RAM_Training - INFO -   Train Accuracy: 0.9272
+2025-12-06 22:56:09 - RAM_Training - INFO -   Test Accuracy: 0.9266
+2025-12-06 22:56:09 - RAM_Training - INFO -   Action Loss: 0.410332
+2025-12-06 22:56:09 - RAM_Training - INFO -   Location Loss: 0.028173
+2025-12-06 22:56:09 - RAM_Training - INFO -   Value Loss: 0.072703
+2025-12-06 22:56:12 - RAM_Training - INFO - 
+2025-12-06 23:04:28 - RAM_Training - INFO - Evaluating epoch 30...
+2025-12-06 23:04:59 - RAM_Training - INFO - 
+2025-12-06 23:04:59 - RAM_Training - INFO - Epoch 30/100 Summary:
+2025-12-06 23:04:59 - RAM_Training - INFO -   Train Loss: 0.467070
+2025-12-06 23:04:59 - RAM_Training - INFO -   Train Accuracy: 0.9302
+2025-12-06 23:04:59 - RAM_Training - INFO -   Test Accuracy: 0.9322
+2025-12-06 23:04:59 - RAM_Training - INFO -   Action Loss: 0.408412
+2025-12-06 23:04:59 - RAM_Training - INFO -   Location Loss: 0.026949
+2025-12-06 23:04:59 - RAM_Training - INFO -   Value Loss: 0.069729
+2025-12-06 23:05:00 - RAM_Training - INFO -   ✓ NEW BEST MODEL! Accuracy: 0.9322
+2025-12-06 23:05:00 - RAM_Training - INFO -     Saved to: checkpoints/mnist_best.pth
+2025-12-06 23:05:02 - RAM_Training - INFO - 
+2025-12-06 23:13:24 - RAM_Training - INFO - Evaluating epoch 31...
+2025-12-06 23:13:56 - RAM_Training - INFO - 
+2025-12-06 23:13:56 - RAM_Training - INFO - Epoch 31/100 Summary:
+2025-12-06 23:13:56 - RAM_Training - INFO -   Train Loss: 0.454274
+2025-12-06 23:13:56 - RAM_Training - INFO -   Train Accuracy: 0.9320
+2025-12-06 23:13:56 - RAM_Training - INFO -   Test Accuracy: 0.9263
+2025-12-06 23:13:56 - RAM_Training - INFO -   Action Loss: 0.396771
+2025-12-06 23:13:56 - RAM_Training - INFO -   Location Loss: 0.026597
+2025-12-06 23:13:56 - RAM_Training - INFO -   Value Loss: 0.067948
+2025-12-06 23:13:59 - RAM_Training - INFO - 
+2025-12-06 23:22:29 - RAM_Training - INFO - Evaluating epoch 32...
+2025-12-06 23:23:00 - RAM_Training - INFO - 
+2025-12-06 23:23:00 - RAM_Training - INFO - Epoch 32/100 Summary:
+2025-12-06 23:23:00 - RAM_Training - INFO -   Train Loss: 0.448689
+2025-12-06 23:23:00 - RAM_Training - INFO -   Train Accuracy: 0.9322
+2025-12-06 23:23:00 - RAM_Training - INFO -   Test Accuracy: 0.9355
+2025-12-06 23:23:00 - RAM_Training - INFO -   Action Loss: 0.392250
+2025-12-06 23:23:00 - RAM_Training - INFO -   Location Loss: 0.026265
+2025-12-06 23:23:00 - RAM_Training - INFO -   Value Loss: 0.067749
+2025-12-06 23:23:01 - RAM_Training - INFO -   ✓ NEW BEST MODEL! Accuracy: 0.9355
+2025-12-06 23:23:01 - RAM_Training - INFO -     Saved to: checkpoints/mnist_best.pth
+2025-12-06 23:23:04 - RAM_Training - INFO - 
+2025-12-06 23:31:36 - RAM_Training - INFO - Evaluating epoch 33...
+2025-12-06 23:32:09 - RAM_Training - INFO - 
+2025-12-06 23:32:09 - RAM_Training - INFO - Epoch 33/100 Summary:
+2025-12-06 23:32:09 - RAM_Training - INFO -   Train Loss: 0.451932
+2025-12-06 23:32:09 - RAM_Training - INFO -   Train Accuracy: 0.9315
+2025-12-06 23:32:09 - RAM_Training - INFO -   Test Accuracy: 0.9305
+2025-12-06 23:32:09 - RAM_Training - INFO -   Action Loss: 0.394499
+2025-12-06 23:32:09 - RAM_Training - INFO -   Location Loss: 0.026332
+2025-12-06 23:32:09 - RAM_Training - INFO -   Value Loss: 0.068416
+2025-12-06 23:32:12 - RAM_Training - INFO - 
+2025-12-06 23:40:41 - RAM_Training - INFO - Evaluating epoch 34...
+2025-12-06 23:41:13 - RAM_Training - INFO - 
+2025-12-06 23:41:13 - RAM_Training - INFO - Epoch 34/100 Summary:
+2025-12-06 23:41:13 - RAM_Training - INFO -   Train Loss: 0.433243
+2025-12-06 23:41:13 - RAM_Training - INFO -   Train Accuracy: 0.9352
+2025-12-06 23:41:13 - RAM_Training - INFO -   Test Accuracy: 0.9359
+2025-12-06 23:41:13 - RAM_Training - INFO -   Action Loss: 0.378830
+2025-12-06 23:41:13 - RAM_Training - INFO -   Location Loss: 0.025347
+2025-12-06 23:41:13 - RAM_Training - INFO -   Value Loss: 0.064792
+2025-12-06 23:41:13 - RAM_Training - INFO -   ✓ NEW BEST MODEL! Accuracy: 0.9359
+2025-12-06 23:41:13 - RAM_Training - INFO -     Saved to: checkpoints/mnist_best.pth
+2025-12-06 23:41:16 - RAM_Training - INFO - 
+2025-12-06 23:50:05 - RAM_Training - INFO - Evaluating epoch 35...
+2025-12-06 23:50:37 - RAM_Training - INFO - 
+2025-12-06 23:50:37 - RAM_Training - INFO - Epoch 35/100 Summary:
+2025-12-06 23:50:37 - RAM_Training - INFO -   Train Loss: 0.430747
+2025-12-06 23:50:37 - RAM_Training - INFO -   Train Accuracy: 0.9356
+2025-12-06 23:50:37 - RAM_Training - INFO -   Test Accuracy: 0.9415
+2025-12-06 23:50:37 - RAM_Training - INFO -   Action Loss: 0.377215
+2025-12-06 23:50:37 - RAM_Training - INFO -   Location Loss: 0.024919
+2025-12-06 23:50:37 - RAM_Training - INFO -   Value Loss: 0.064308
+2025-12-06 23:50:37 - RAM_Training - INFO -   ✓ NEW BEST MODEL! Accuracy: 0.9415
+2025-12-06 23:50:37 - RAM_Training - INFO -     Saved to: checkpoints/mnist_best.pth
+2025-12-06 23:50:41 - RAM_Training - INFO - 
+2025-12-06 23:58:49 - RAM_Training - INFO - Evaluating epoch 36...
+2025-12-06 23:59:21 - RAM_Training - INFO - 
+2025-12-06 23:59:21 - RAM_Training - INFO - Epoch 36/100 Summary:
+2025-12-06 23:59:21 - RAM_Training - INFO -   Train Loss: 0.416934
+2025-12-06 23:59:21 - RAM_Training - INFO -   Train Accuracy: 0.9370
+2025-12-06 23:59:21 - RAM_Training - INFO -   Test Accuracy: 0.9441
+2025-12-06 23:59:21 - RAM_Training - INFO -   Action Loss: 0.364223
+2025-12-06 23:59:21 - RAM_Training - INFO -   Location Loss: 0.024535
+2025-12-06 23:59:21 - RAM_Training - INFO -   Value Loss: 0.062979
+2025-12-06 23:59:21 - RAM_Training - INFO -   ✓ NEW BEST MODEL! Accuracy: 0.9441
+2025-12-06 23:59:21 - RAM_Training - INFO -     Saved to: checkpoints/mnist_best.pth
+2025-12-06 23:59:24 - RAM_Training - INFO - 
+2025-12-07 00:08:00 - RAM_Training - INFO - Evaluating epoch 37...
+2025-12-07 00:08:33 - RAM_Training - INFO - 
+2025-12-07 00:08:33 - RAM_Training - INFO - Epoch 37/100 Summary:
+2025-12-07 00:08:33 - RAM_Training - INFO -   Train Loss: 0.420908
+2025-12-07 00:08:33 - RAM_Training - INFO -   Train Accuracy: 0.9361
+2025-12-07 00:08:33 - RAM_Training - INFO -   Test Accuracy: 0.9379
+2025-12-07 00:08:33 - RAM_Training - INFO -   Action Loss: 0.367256
+2025-12-07 00:08:33 - RAM_Training - INFO -   Location Loss: 0.024987
+2025-12-07 00:08:33 - RAM_Training - INFO -   Value Loss: 0.063812
+2025-12-07 00:08:37 - RAM_Training - INFO - 
+2025-12-07 00:16:48 - RAM_Training - INFO - Evaluating epoch 38...
+2025-12-07 00:17:20 - RAM_Training - INFO - 
+2025-12-07 00:17:20 - RAM_Training - INFO - Epoch 38/100 Summary:
+2025-12-07 00:17:20 - RAM_Training - INFO -   Train Loss: 0.421402
+2025-12-07 00:17:20 - RAM_Training - INFO -   Train Accuracy: 0.9375
+2025-12-07 00:17:20 - RAM_Training - INFO -   Test Accuracy: 0.9355
+2025-12-07 00:17:20 - RAM_Training - INFO -   Action Loss: 0.369468
+2025-12-07 00:17:20 - RAM_Training - INFO -   Location Loss: 0.024192
+2025-12-07 00:17:20 - RAM_Training - INFO -   Value Loss: 0.062447
+2025-12-07 00:17:23 - RAM_Training - INFO - 
+2025-12-07 00:25:47 - RAM_Training - INFO - Evaluating epoch 39...
+2025-12-07 00:26:18 - RAM_Training - INFO - 
+2025-12-07 00:26:18 - RAM_Training - INFO - Epoch 39/100 Summary:
+2025-12-07 00:26:18 - RAM_Training - INFO -   Train Loss: 0.420954
+2025-12-07 00:26:18 - RAM_Training - INFO -   Train Accuracy: 0.9373
+2025-12-07 00:26:18 - RAM_Training - INFO -   Test Accuracy: 0.9370
+2025-12-07 00:26:18 - RAM_Training - INFO -   Action Loss: 0.368578
+2025-12-07 00:26:18 - RAM_Training - INFO -   Location Loss: 0.024450
+2025-12-07 00:26:18 - RAM_Training - INFO -   Value Loss: 0.062663
+2025-12-07 00:26:21 - RAM_Training - INFO - 
+2025-12-07 00:34:54 - RAM_Training - INFO - Evaluating epoch 40...
+2025-12-07 00:35:26 - RAM_Training - INFO - 
+2025-12-07 00:35:26 - RAM_Training - INFO - Epoch 40/100 Summary:
+2025-12-07 00:35:26 - RAM_Training - INFO -   Train Loss: 0.434186
+2025-12-07 00:35:26 - RAM_Training - INFO -   Train Accuracy: 0.9349
+2025-12-07 00:35:26 - RAM_Training - INFO -   Test Accuracy: 0.9377
+2025-12-07 00:35:26 - RAM_Training - INFO -   Action Loss: 0.378816
+2025-12-07 00:35:26 - RAM_Training - INFO -   Location Loss: 0.026461
+2025-12-07 00:35:26 - RAM_Training - INFO -   Value Loss: 0.065006
+2025-12-07 00:35:30 - RAM_Training - INFO - 
+2025-12-07 00:43:50 - RAM_Training - INFO - Evaluating epoch 41...
+2025-12-07 00:44:22 - RAM_Training - INFO - 
+2025-12-07 00:44:22 - RAM_Training - INFO - Epoch 41/100 Summary:
+2025-12-07 00:44:22 - RAM_Training - INFO -   Train Loss: 0.406197
+2025-12-07 00:44:22 - RAM_Training - INFO -   Train Accuracy: 0.9382
+2025-12-07 00:44:22 - RAM_Training - INFO -   Test Accuracy: 0.9427
+2025-12-07 00:44:22 - RAM_Training - INFO -   Action Loss: 0.355061
+2025-12-07 00:44:22 - RAM_Training - INFO -   Location Loss: 0.024115
+2025-12-07 00:44:22 - RAM_Training - INFO -   Value Loss: 0.061698
+2025-12-07 00:44:25 - RAM_Training - INFO - 
+2025-12-07 00:52:52 - RAM_Training - INFO - Evaluating epoch 42...
+2025-12-07 00:53:24 - RAM_Training - INFO - 
+2025-12-07 00:53:24 - RAM_Training - INFO - Epoch 42/100 Summary:
+2025-12-07 00:53:24 - RAM_Training - INFO -   Train Loss: 0.392744
+2025-12-07 00:53:24 - RAM_Training - INFO -   Train Accuracy: 0.9417
+2025-12-07 00:53:24 - RAM_Training - INFO -   Test Accuracy: 0.9416
+2025-12-07 00:53:24 - RAM_Training - INFO -   Action Loss: 0.343706
+2025-12-07 00:53:24 - RAM_Training - INFO -   Location Loss: 0.023558
+2025-12-07 00:53:24 - RAM_Training - INFO -   Value Loss: 0.058207
+2025-12-07 00:53:27 - RAM_Training - INFO - 
+2025-12-07 01:01:41 - RAM_Training - INFO - Evaluating epoch 43...
+2025-12-07 01:02:13 - RAM_Training - INFO - 
+2025-12-07 01:02:13 - RAM_Training - INFO - Epoch 43/100 Summary:
+2025-12-07 01:02:13 - RAM_Training - INFO -   Train Loss: 0.388472
+2025-12-07 01:02:13 - RAM_Training - INFO -   Train Accuracy: 0.9412
+2025-12-07 01:02:13 - RAM_Training - INFO -   Test Accuracy: 0.9432
+2025-12-07 01:02:13 - RAM_Training - INFO -   Action Loss: 0.339266
+2025-12-07 01:02:13 - RAM_Training - INFO -   Location Loss: 0.023263
+2025-12-07 01:02:13 - RAM_Training - INFO -   Value Loss: 0.058707
+2025-12-07 01:02:17 - RAM_Training - INFO - 
+2025-12-07 01:11:12 - RAM_Training - INFO - Evaluating epoch 44...
+2025-12-07 01:11:44 - RAM_Training - INFO - 
+2025-12-07 01:11:44 - RAM_Training - INFO - Epoch 44/100 Summary:
+2025-12-07 01:11:44 - RAM_Training - INFO -   Train Loss: 0.376105
+2025-12-07 01:11:44 - RAM_Training - INFO -   Train Accuracy: 0.9434
+2025-12-07 01:11:44 - RAM_Training - INFO -   Test Accuracy: 0.9434
+2025-12-07 01:11:44 - RAM_Training - INFO -   Action Loss: 0.328631
+2025-12-07 01:11:44 - RAM_Training - INFO -   Location Loss: 0.022620
+2025-12-07 01:11:44 - RAM_Training - INFO -   Value Loss: 0.056510
+2025-12-07 01:11:47 - RAM_Training - INFO - 
+2025-12-07 01:20:13 - RAM_Training - INFO - Evaluating epoch 45...
+2025-12-07 01:20:44 - RAM_Training - INFO - 
+2025-12-07 01:20:44 - RAM_Training - INFO - Epoch 45/100 Summary:
+2025-12-07 01:20:44 - RAM_Training - INFO -   Train Loss: 0.375536
+2025-12-07 01:20:44 - RAM_Training - INFO -   Train Accuracy: 0.9441
+2025-12-07 01:20:44 - RAM_Training - INFO -   Test Accuracy: 0.9452
+2025-12-07 01:20:44 - RAM_Training - INFO -   Action Loss: 0.329830
+2025-12-07 01:20:44 - RAM_Training - INFO -   Location Loss: 0.021780
+2025-12-07 01:20:44 - RAM_Training - INFO -   Value Loss: 0.055878
+2025-12-07 01:20:45 - RAM_Training - INFO -   ✓ NEW BEST MODEL! Accuracy: 0.9452
+2025-12-07 01:20:45 - RAM_Training - INFO -     Saved to: checkpoints/mnist_best.pth
+2025-12-07 01:20:48 - RAM_Training - INFO - 
+2025-12-07 01:29:30 - RAM_Training - INFO - Evaluating epoch 46...
+2025-12-07 01:30:03 - RAM_Training - INFO - 
+2025-12-07 01:30:03 - RAM_Training - INFO - Epoch 46/100 Summary:
+2025-12-07 01:30:03 - RAM_Training - INFO -   Train Loss: 0.370084
+2025-12-07 01:30:03 - RAM_Training - INFO -   Train Accuracy: 0.9462
+2025-12-07 01:30:03 - RAM_Training - INFO -   Test Accuracy: 0.9438
+2025-12-07 01:30:03 - RAM_Training - INFO -   Action Loss: 0.324894
+2025-12-07 01:30:03 - RAM_Training - INFO -   Location Loss: 0.021867
+2025-12-07 01:30:03 - RAM_Training - INFO -   Value Loss: 0.053800
+2025-12-07 01:30:07 - RAM_Training - INFO - 
+2025-12-07 01:38:34 - RAM_Training - INFO - Evaluating epoch 47...
+2025-12-07 01:39:06 - RAM_Training - INFO - 
+2025-12-07 01:39:06 - RAM_Training - INFO - Epoch 47/100 Summary:
+2025-12-07 01:39:06 - RAM_Training - INFO -   Train Loss: 0.378805
+2025-12-07 01:39:06 - RAM_Training - INFO -   Train Accuracy: 0.9452
+2025-12-07 01:39:06 - RAM_Training - INFO -   Test Accuracy: 0.9449
+2025-12-07 01:39:06 - RAM_Training - INFO -   Action Loss: 0.332705
+2025-12-07 01:39:06 - RAM_Training - INFO -   Location Loss: 0.022242
+2025-12-07 01:39:06 - RAM_Training - INFO -   Value Loss: 0.054800
+2025-12-07 01:39:09 - RAM_Training - INFO - 
+2025-12-07 01:47:33 - RAM_Training - INFO - Evaluating epoch 48...
+2025-12-07 01:48:03 - RAM_Training - INFO - 
+2025-12-07 01:48:03 - RAM_Training - INFO - Epoch 48/100 Summary:
+2025-12-07 01:48:03 - RAM_Training - INFO -   Train Loss: 0.369440
+2025-12-07 01:48:03 - RAM_Training - INFO -   Train Accuracy: 0.9452
+2025-12-07 01:48:03 - RAM_Training - INFO -   Test Accuracy: 0.9452
+2025-12-07 01:48:03 - RAM_Training - INFO -   Action Loss: 0.323999
+2025-12-07 01:48:03 - RAM_Training - INFO -   Location Loss: 0.022068
+2025-12-07 01:48:03 - RAM_Training - INFO -   Value Loss: 0.054716
+2025-12-07 01:48:07 - RAM_Training - INFO - 
+2025-12-07 01:55:54 - RAM_Training - INFO - Evaluating epoch 49...
+2025-12-07 01:56:24 - RAM_Training - INFO - 
+2025-12-07 01:56:24 - RAM_Training - INFO - Epoch 49/100 Summary:
+2025-12-07 01:56:24 - RAM_Training - INFO -   Train Loss: 0.376835
+2025-12-07 01:56:24 - RAM_Training - INFO -   Train Accuracy: 0.9449
+2025-12-07 01:56:24 - RAM_Training - INFO -   Test Accuracy: 0.9493
+2025-12-07 01:56:24 - RAM_Training - INFO -   Action Loss: 0.331077
+2025-12-07 01:56:24 - RAM_Training - INFO -   Location Loss: 0.021797
+2025-12-07 01:56:24 - RAM_Training - INFO -   Value Loss: 0.055064
+2025-12-07 01:56:24 - RAM_Training - INFO -   ✓ NEW BEST MODEL! Accuracy: 0.9493
+2025-12-07 01:56:24 - RAM_Training - INFO -     Saved to: checkpoints/mnist_best.pth
+2025-12-07 01:56:28 - RAM_Training - INFO - 
+2025-12-07 02:04:02 - RAM_Training - INFO - Evaluating epoch 50...
+2025-12-07 02:04:31 - RAM_Training - INFO - 
+2025-12-07 02:04:31 - RAM_Training - INFO - Epoch 50/100 Summary:
+2025-12-07 02:04:31 - RAM_Training - INFO -   Train Loss: 0.367221
+2025-12-07 02:04:31 - RAM_Training - INFO -   Train Accuracy: 0.9454
+2025-12-07 02:04:31 - RAM_Training - INFO -   Test Accuracy: 0.9456
+2025-12-07 02:04:31 - RAM_Training - INFO -   Action Loss: 0.322257
+2025-12-07 02:04:31 - RAM_Training - INFO -   Location Loss: 0.021223
+2025-12-07 02:04:31 - RAM_Training - INFO -   Value Loss: 0.054599
+2025-12-07 02:04:34 - RAM_Training - INFO - 
+2025-12-07 02:12:10 - RAM_Training - INFO - Evaluating epoch 51...
+2025-12-07 02:12:40 - RAM_Training - INFO - 
+2025-12-07 02:12:40 - RAM_Training - INFO - Epoch 51/100 Summary:
+2025-12-07 02:12:40 - RAM_Training - INFO -   Train Loss: 0.358417
+2025-12-07 02:12:40 - RAM_Training - INFO -   Train Accuracy: 0.9467
+2025-12-07 02:12:40 - RAM_Training - INFO -   Test Accuracy: 0.9510
+2025-12-07 02:12:40 - RAM_Training - INFO -   Action Loss: 0.314118
+2025-12-07 02:12:40 - RAM_Training - INFO -   Location Loss: 0.021371
+2025-12-07 02:12:40 - RAM_Training - INFO -   Value Loss: 0.053236
+2025-12-07 02:12:40 - RAM_Training - INFO -   ✓ NEW BEST MODEL! Accuracy: 0.9510
+2025-12-07 02:12:40 - RAM_Training - INFO -     Saved to: checkpoints/mnist_best.pth
+2025-12-07 02:12:43 - RAM_Training - INFO - 
+2025-12-07 02:20:12 - RAM_Training - INFO - Evaluating epoch 52...
+2025-12-07 02:20:42 - RAM_Training - INFO - 
+2025-12-07 02:20:42 - RAM_Training - INFO - Epoch 52/100 Summary:
+2025-12-07 02:20:42 - RAM_Training - INFO -   Train Loss: 0.345753
+2025-12-07 02:20:42 - RAM_Training - INFO -   Train Accuracy: 0.9489
+2025-12-07 02:20:42 - RAM_Training - INFO -   Test Accuracy: 0.9508
+2025-12-07 02:20:42 - RAM_Training - INFO -   Action Loss: 0.302977
+2025-12-07 02:20:42 - RAM_Training - INFO -   Location Loss: 0.021447
+2025-12-07 02:20:42 - RAM_Training - INFO -   Value Loss: 0.051073
+2025-12-07 02:20:46 - RAM_Training - INFO - 
+2025-12-07 02:28:18 - RAM_Training - INFO - Evaluating epoch 53...
+2025-12-07 02:28:48 - RAM_Training - INFO - 
+2025-12-07 02:28:48 - RAM_Training - INFO - Epoch 53/100 Summary:
+2025-12-07 02:28:48 - RAM_Training - INFO -   Train Loss: 0.354405
+2025-12-07 02:28:48 - RAM_Training - INFO -   Train Accuracy: 0.9467
+2025-12-07 02:28:48 - RAM_Training - INFO -   Test Accuracy: 0.9515
+2025-12-07 02:28:48 - RAM_Training - INFO -   Action Loss: 0.310583
+2025-12-07 02:28:48 - RAM_Training - INFO -   Location Loss: 0.021043
+2025-12-07 02:28:48 - RAM_Training - INFO -   Value Loss: 0.053218
+2025-12-07 02:28:48 - RAM_Training - INFO -   ✓ NEW BEST MODEL! Accuracy: 0.9515
+2025-12-07 02:28:48 - RAM_Training - INFO -     Saved to: checkpoints/mnist_best.pth
+2025-12-07 02:28:52 - RAM_Training - INFO - 
+2025-12-07 02:36:25 - RAM_Training - INFO - Evaluating epoch 54...
+2025-12-07 02:36:55 - RAM_Training - INFO - 
+2025-12-07 02:36:55 - RAM_Training - INFO - Epoch 54/100 Summary:
+2025-12-07 02:36:55 - RAM_Training - INFO -   Train Loss: 0.352774
+2025-12-07 02:36:55 - RAM_Training - INFO -   Train Accuracy: 0.9481
+2025-12-07 02:36:55 - RAM_Training - INFO -   Test Accuracy: 0.9519
+2025-12-07 02:36:55 - RAM_Training - INFO -   Action Loss: 0.310056
+2025-12-07 02:36:55 - RAM_Training - INFO -   Location Loss: 0.020989
+2025-12-07 02:36:55 - RAM_Training - INFO -   Value Loss: 0.051889
+2025-12-07 02:36:55 - RAM_Training - INFO -   ✓ NEW BEST MODEL! Accuracy: 0.9519
+2025-12-07 02:36:55 - RAM_Training - INFO -     Saved to: checkpoints/mnist_best.pth
+2025-12-07 02:36:58 - RAM_Training - INFO - 
+2025-12-07 02:44:28 - RAM_Training - INFO - Evaluating epoch 55...
+2025-12-07 02:44:58 - RAM_Training - INFO - 
+2025-12-07 02:44:58 - RAM_Training - INFO - Epoch 55/100 Summary:
+2025-12-07 02:44:58 - RAM_Training - INFO -   Train Loss: 0.340181
+2025-12-07 02:44:58 - RAM_Training - INFO -   Train Accuracy: 0.9496
+2025-12-07 02:44:58 - RAM_Training - INFO -   Test Accuracy: 0.9488
+2025-12-07 02:44:58 - RAM_Training - INFO -   Action Loss: 0.298249
+2025-12-07 02:44:58 - RAM_Training - INFO -   Location Loss: 0.020141
+2025-12-07 02:44:58 - RAM_Training - INFO -   Value Loss: 0.050408
+2025-12-07 02:45:01 - RAM_Training - INFO - 
+2025-12-07 02:52:32 - RAM_Training - INFO - Evaluating epoch 56...
+2025-12-07 02:53:01 - RAM_Training - INFO - 
+2025-12-07 02:53:01 - RAM_Training - INFO - Epoch 56/100 Summary:
+2025-12-07 02:53:01 - RAM_Training - INFO -   Train Loss: 0.344217
+2025-12-07 02:53:01 - RAM_Training - INFO -   Train Accuracy: 0.9491
+2025-12-07 02:53:01 - RAM_Training - INFO -   Test Accuracy: 0.9540
+2025-12-07 02:53:01 - RAM_Training - INFO -   Action Loss: 0.301415
+2025-12-07 02:53:01 - RAM_Training - INFO -   Location Loss: 0.020577
+2025-12-07 02:53:01 - RAM_Training - INFO -   Value Loss: 0.050907
+2025-12-07 02:53:01 - RAM_Training - INFO -   ✓ NEW BEST MODEL! Accuracy: 0.9540
+2025-12-07 02:53:01 - RAM_Training - INFO -     Saved to: checkpoints/mnist_best.pth
+2025-12-07 02:53:04 - RAM_Training - INFO - 
+2025-12-07 03:00:37 - RAM_Training - INFO - Evaluating epoch 57...
+2025-12-07 03:01:07 - RAM_Training - INFO - 
+2025-12-07 03:01:07 - RAM_Training - INFO - Epoch 57/100 Summary:
+2025-12-07 03:01:07 - RAM_Training - INFO -   Train Loss: 0.354643
+2025-12-07 03:01:07 - RAM_Training - INFO -   Train Accuracy: 0.9470
+2025-12-07 03:01:07 - RAM_Training - INFO -   Test Accuracy: 0.9529
+2025-12-07 03:01:07 - RAM_Training - INFO -   Action Loss: 0.311331
+2025-12-07 03:01:07 - RAM_Training - INFO -   Location Loss: 0.021497
+2025-12-07 03:01:07 - RAM_Training - INFO -   Value Loss: 0.052971
+2025-12-07 03:01:10 - RAM_Training - INFO - 
+2025-12-07 03:08:43 - RAM_Training - INFO - Evaluating epoch 58...
+2025-12-07 03:09:13 - RAM_Training - INFO - 
+2025-12-07 03:09:13 - RAM_Training - INFO - Epoch 58/100 Summary:
+2025-12-07 03:09:13 - RAM_Training - INFO -   Train Loss: 0.345985
+2025-12-07 03:09:13 - RAM_Training - INFO -   Train Accuracy: 0.9497
+2025-12-07 03:09:13 - RAM_Training - INFO -   Test Accuracy: 0.9496
+2025-12-07 03:09:13 - RAM_Training - INFO -   Action Loss: 0.304362
+2025-12-07 03:09:13 - RAM_Training - INFO -   Location Loss: 0.021333
+2025-12-07 03:09:13 - RAM_Training - INFO -   Value Loss: 0.050258
+2025-12-07 03:09:17 - RAM_Training - INFO - 
+2025-12-07 03:16:57 - RAM_Training - INFO - Evaluating epoch 59...
+2025-12-07 03:17:27 - RAM_Training - INFO - 
+2025-12-07 03:17:27 - RAM_Training - INFO - Epoch 59/100 Summary:
+2025-12-07 03:17:27 - RAM_Training - INFO -   Train Loss: 0.332251
+2025-12-07 03:17:27 - RAM_Training - INFO -   Train Accuracy: 0.9501
+2025-12-07 03:17:27 - RAM_Training - INFO -   Test Accuracy: 0.9484
+2025-12-07 03:17:27 - RAM_Training - INFO -   Action Loss: 0.290889
+2025-12-07 03:17:27 - RAM_Training - INFO -   Location Loss: 0.020407
+2025-12-07 03:17:27 - RAM_Training - INFO -   Value Loss: 0.049827
+2025-12-07 03:17:33 - RAM_Training - INFO - 
+2025-12-07 03:25:05 - RAM_Training - INFO - Evaluating epoch 60...
+2025-12-07 03:25:35 - RAM_Training - INFO - 
+2025-12-07 03:25:35 - RAM_Training - INFO - Epoch 60/100 Summary:
+2025-12-07 03:25:35 - RAM_Training - INFO -   Train Loss: 0.329971
+2025-12-07 03:25:35 - RAM_Training - INFO -   Train Accuracy: 0.9519
+2025-12-07 03:25:35 - RAM_Training - INFO -   Test Accuracy: 0.9513
+2025-12-07 03:25:35 - RAM_Training - INFO -   Action Loss: 0.290690
+2025-12-07 03:25:35 - RAM_Training - INFO -   Location Loss: 0.019806
+2025-12-07 03:25:35 - RAM_Training - INFO -   Value Loss: 0.048112
+2025-12-07 03:25:38 - RAM_Training - INFO - 
+2025-12-07 03:33:11 - RAM_Training - INFO - Evaluating epoch 61...
+2025-12-07 03:33:41 - RAM_Training - INFO - 
+2025-12-07 03:33:41 - RAM_Training - INFO - Epoch 61/100 Summary:
+2025-12-07 03:33:41 - RAM_Training - INFO -   Train Loss: 0.326949
+2025-12-07 03:33:41 - RAM_Training - INFO -   Train Accuracy: 0.9517
+2025-12-07 03:33:41 - RAM_Training - INFO -   Test Accuracy: 0.9488
+2025-12-07 03:33:41 - RAM_Training - INFO -   Action Loss: 0.286815
+2025-12-07 03:33:41 - RAM_Training - INFO -   Location Loss: 0.019836
+2025-12-07 03:33:41 - RAM_Training - INFO -   Value Loss: 0.048245
+2025-12-07 03:33:44 - RAM_Training - INFO - 
+2025-12-07 03:41:17 - RAM_Training - INFO - Evaluating epoch 62...
+2025-12-07 03:41:47 - RAM_Training - INFO - 
+2025-12-07 03:41:47 - RAM_Training - INFO - Epoch 62/100 Summary:
+2025-12-07 03:41:47 - RAM_Training - INFO -   Train Loss: 0.312032
+2025-12-07 03:41:47 - RAM_Training - INFO -   Train Accuracy: 0.9538
+2025-12-07 03:41:47 - RAM_Training - INFO -   Test Accuracy: 0.9494
+2025-12-07 03:41:47 - RAM_Training - INFO -   Action Loss: 0.274119
+2025-12-07 03:41:47 - RAM_Training - INFO -   Location Loss: 0.019305
+2025-12-07 03:41:47 - RAM_Training - INFO -   Value Loss: 0.046216
+2025-12-07 03:41:50 - RAM_Training - INFO - 
+2025-12-07 03:49:29 - RAM_Training - INFO - Evaluating epoch 63...
+2025-12-07 03:49:59 - RAM_Training - INFO - 
+2025-12-07 03:49:59 - RAM_Training - INFO - Epoch 63/100 Summary:
+2025-12-07 03:49:59 - RAM_Training - INFO -   Train Loss: 0.334576
+2025-12-07 03:49:59 - RAM_Training - INFO -   Train Accuracy: 0.9519
+2025-12-07 03:49:59 - RAM_Training - INFO -   Test Accuracy: 0.9514
+2025-12-07 03:49:59 - RAM_Training - INFO -   Action Loss: 0.294535
+2025-12-07 03:49:59 - RAM_Training - INFO -   Location Loss: 0.020110
+2025-12-07 03:49:59 - RAM_Training - INFO -   Value Loss: 0.048030
+2025-12-07 03:50:04 - RAM_Training - INFO - 
+2025-12-07 03:57:35 - RAM_Training - INFO - Evaluating epoch 64...
+2025-12-07 03:58:05 - RAM_Training - INFO - 
+2025-12-07 03:58:05 - RAM_Training - INFO - Epoch 64/100 Summary:
+2025-12-07 03:58:05 - RAM_Training - INFO -   Train Loss: 0.322405
+2025-12-07 03:58:05 - RAM_Training - INFO -   Train Accuracy: 0.9528
+2025-12-07 03:58:05 - RAM_Training - INFO -   Test Accuracy: 0.9507
+2025-12-07 03:58:05 - RAM_Training - INFO -   Action Loss: 0.282809
+2025-12-07 03:58:05 - RAM_Training - INFO -   Location Loss: 0.020774
+2025-12-07 03:58:05 - RAM_Training - INFO -   Value Loss: 0.047198
+2025-12-07 03:58:08 - RAM_Training - INFO - 
+2025-12-07 04:05:43 - RAM_Training - INFO - Evaluating epoch 65...
+2025-12-07 04:06:13 - RAM_Training - INFO - 
+2025-12-07 04:06:13 - RAM_Training - INFO - Epoch 65/100 Summary:
+2025-12-07 04:06:13 - RAM_Training - INFO -   Train Loss: 0.310481
+2025-12-07 04:06:13 - RAM_Training - INFO -   Train Accuracy: 0.9543
+2025-12-07 04:06:13 - RAM_Training - INFO -   Test Accuracy: 0.9539
+2025-12-07 04:06:13 - RAM_Training - INFO -   Action Loss: 0.271859
+2025-12-07 04:06:13 - RAM_Training - INFO -   Location Loss: 0.020082
+2025-12-07 04:06:13 - RAM_Training - INFO -   Value Loss: 0.045667
+2025-12-07 04:06:16 - RAM_Training - INFO - 
+2025-12-07 04:13:48 - RAM_Training - INFO - Evaluating epoch 66...
+2025-12-07 04:14:18 - RAM_Training - INFO - 
+2025-12-07 04:14:18 - RAM_Training - INFO - Epoch 66/100 Summary:
+2025-12-07 04:14:18 - RAM_Training - INFO -   Train Loss: 0.313080
+2025-12-07 04:14:18 - RAM_Training - INFO -   Train Accuracy: 0.9526
+2025-12-07 04:14:18 - RAM_Training - INFO -   Test Accuracy: 0.9507
+2025-12-07 04:14:18 - RAM_Training - INFO -   Action Loss: 0.274267
+2025-12-07 04:14:18 - RAM_Training - INFO -   Location Loss: 0.019853
+2025-12-07 04:14:18 - RAM_Training - INFO -   Value Loss: 0.047329
+2025-12-07 04:14:21 - RAM_Training - INFO - 
+2025-12-07 04:22:05 - RAM_Training - INFO - Evaluating epoch 67...
+2025-12-07 04:22:37 - RAM_Training - INFO - 
+2025-12-07 04:22:37 - RAM_Training - INFO - Epoch 67/100 Summary:
+2025-12-07 04:22:37 - RAM_Training - INFO -   Train Loss: 0.326071
+2025-12-07 04:22:37 - RAM_Training - INFO -   Train Accuracy: 0.9523
+2025-12-07 04:22:37 - RAM_Training - INFO -   Test Accuracy: 0.9544
+2025-12-07 04:22:37 - RAM_Training - INFO -   Action Loss: 0.286921
+2025-12-07 04:22:37 - RAM_Training - INFO -   Location Loss: 0.019514
+2025-12-07 04:22:37 - RAM_Training - INFO -   Value Loss: 0.047696
+2025-12-07 04:22:38 - RAM_Training - INFO -   ✓ NEW BEST MODEL! Accuracy: 0.9544
+2025-12-07 04:22:38 - RAM_Training - INFO -     Saved to: checkpoints/mnist_best.pth
+2025-12-07 04:22:42 - RAM_Training - INFO - 
+2025-12-07 04:30:15 - RAM_Training - INFO - Evaluating epoch 68...
+2025-12-07 04:30:45 - RAM_Training - INFO - 
+2025-12-07 04:30:45 - RAM_Training - INFO - Epoch 68/100 Summary:
+2025-12-07 04:30:45 - RAM_Training - INFO -   Train Loss: 0.309451
+2025-12-07 04:30:45 - RAM_Training - INFO -   Train Accuracy: 0.9544
+2025-12-07 04:30:45 - RAM_Training - INFO -   Test Accuracy: 0.9546
+2025-12-07 04:30:45 - RAM_Training - INFO -   Action Loss: 0.271495
+2025-12-07 04:30:45 - RAM_Training - INFO -   Location Loss: 0.019144
+2025-12-07 04:30:45 - RAM_Training - INFO -   Value Loss: 0.045584
+2025-12-07 04:30:45 - RAM_Training - INFO -   ✓ NEW BEST MODEL! Accuracy: 0.9546
+2025-12-07 04:30:45 - RAM_Training - INFO -     Saved to: checkpoints/mnist_best.pth
+2025-12-07 04:30:49 - RAM_Training - INFO - 
+2025-12-07 04:38:20 - RAM_Training - INFO - Evaluating epoch 69...
+2025-12-07 04:38:49 - RAM_Training - INFO - 
+2025-12-07 04:38:49 - RAM_Training - INFO - Epoch 69/100 Summary:
+2025-12-07 04:38:49 - RAM_Training - INFO -   Train Loss: 0.316700
+2025-12-07 04:38:49 - RAM_Training - INFO -   Train Accuracy: 0.9526
+2025-12-07 04:38:49 - RAM_Training - INFO -   Test Accuracy: 0.9545
+2025-12-07 04:38:49 - RAM_Training - INFO -   Action Loss: 0.277906
+2025-12-07 04:38:49 - RAM_Training - INFO -   Location Loss: 0.019396
+2025-12-07 04:38:49 - RAM_Training - INFO -   Value Loss: 0.047330
+2025-12-07 04:38:52 - RAM_Training - INFO - 
+2025-12-07 04:46:23 - RAM_Training - INFO - Evaluating epoch 70...
+2025-12-07 04:46:52 - RAM_Training - INFO - 
+2025-12-07 04:46:52 - RAM_Training - INFO - Epoch 70/100 Summary:
+2025-12-07 04:46:52 - RAM_Training - INFO -   Train Loss: 0.310742
+2025-12-07 04:46:52 - RAM_Training - INFO -   Train Accuracy: 0.9540
+2025-12-07 04:46:52 - RAM_Training - INFO -   Test Accuracy: 0.9549
+2025-12-07 04:46:52 - RAM_Training - INFO -   Action Loss: 0.272575
+2025-12-07 04:46:52 - RAM_Training - INFO -   Location Loss: 0.019365
+2025-12-07 04:46:52 - RAM_Training - INFO -   Value Loss: 0.045933
+2025-12-07 04:46:53 - RAM_Training - INFO -   ✓ NEW BEST MODEL! Accuracy: 0.9549
+2025-12-07 04:46:53 - RAM_Training - INFO -     Saved to: checkpoints/mnist_best.pth
+2025-12-07 04:46:56 - RAM_Training - INFO - 
+2025-12-07 04:54:32 - RAM_Training - INFO - Evaluating epoch 71...
+2025-12-07 04:55:02 - RAM_Training - INFO - 
+2025-12-07 04:55:02 - RAM_Training - INFO - Epoch 71/100 Summary:
+2025-12-07 04:55:02 - RAM_Training - INFO -   Train Loss: 0.309129
+2025-12-07 04:55:02 - RAM_Training - INFO -   Train Accuracy: 0.9542
+2025-12-07 04:55:02 - RAM_Training - INFO -   Test Accuracy: 0.9542
+2025-12-07 04:55:02 - RAM_Training - INFO -   Action Loss: 0.271030
+2025-12-07 04:55:02 - RAM_Training - INFO -   Location Loss: 0.019441
+2025-12-07 04:55:02 - RAM_Training - INFO -   Value Loss: 0.045767
+2025-12-07 04:55:05 - RAM_Training - INFO - 
+2025-12-07 05:02:37 - RAM_Training - INFO - Evaluating epoch 72...
+2025-12-07 05:03:07 - RAM_Training - INFO - 
+2025-12-07 05:03:07 - RAM_Training - INFO - Epoch 72/100 Summary:
+2025-12-07 05:03:07 - RAM_Training - INFO -   Train Loss: 0.310986
+2025-12-07 05:03:07 - RAM_Training - INFO -   Train Accuracy: 0.9541
+2025-12-07 05:03:07 - RAM_Training - INFO -   Test Accuracy: 0.9581
+2025-12-07 05:03:07 - RAM_Training - INFO -   Action Loss: 0.272463
+2025-12-07 05:03:07 - RAM_Training - INFO -   Location Loss: 0.020211
+2025-12-07 05:03:07 - RAM_Training - INFO -   Value Loss: 0.045901
+2025-12-07 05:03:07 - RAM_Training - INFO -   ✓ NEW BEST MODEL! Accuracy: 0.9581
+2025-12-07 05:03:07 - RAM_Training - INFO -     Saved to: checkpoints/mnist_best.pth
+2025-12-07 05:03:11 - RAM_Training - INFO - 
+2025-12-07 05:10:39 - RAM_Training - INFO - Evaluating epoch 73...
+2025-12-07 05:11:08 - RAM_Training - INFO - 
+2025-12-07 05:11:08 - RAM_Training - INFO - Epoch 73/100 Summary:
+2025-12-07 05:11:08 - RAM_Training - INFO -   Train Loss: 0.300620
+2025-12-07 05:11:08 - RAM_Training - INFO -   Train Accuracy: 0.9554
+2025-12-07 05:11:08 - RAM_Training - INFO -   Test Accuracy: 0.9549
+2025-12-07 05:11:08 - RAM_Training - INFO -   Action Loss: 0.264184
+2025-12-07 05:11:08 - RAM_Training - INFO -   Location Loss: 0.018797
+2025-12-07 05:11:08 - RAM_Training - INFO -   Value Loss: 0.044620
+2025-12-07 05:11:12 - RAM_Training - INFO - 
+2025-12-07 05:18:40 - RAM_Training - INFO - Evaluating epoch 74...
+2025-12-07 05:19:09 - RAM_Training - INFO - 
+2025-12-07 05:19:09 - RAM_Training - INFO - Epoch 74/100 Summary:
+2025-12-07 05:19:09 - RAM_Training - INFO -   Train Loss: 0.307587
+2025-12-07 05:19:09 - RAM_Training - INFO -   Train Accuracy: 0.9539
+2025-12-07 05:19:09 - RAM_Training - INFO -   Test Accuracy: 0.9566
+2025-12-07 05:19:09 - RAM_Training - INFO -   Action Loss: 0.269906
+2025-12-07 05:19:09 - RAM_Training - INFO -   Location Loss: 0.018616
+2025-12-07 05:19:09 - RAM_Training - INFO -   Value Loss: 0.046083
+2025-12-07 05:19:12 - RAM_Training - INFO - 
+2025-12-07 05:26:49 - RAM_Training - INFO - Evaluating epoch 75...
+2025-12-07 05:27:19 - RAM_Training - INFO - 
+2025-12-07 05:27:19 - RAM_Training - INFO - Epoch 75/100 Summary:
+2025-12-07 05:27:19 - RAM_Training - INFO -   Train Loss: 0.296680
+2025-12-07 05:27:19 - RAM_Training - INFO -   Train Accuracy: 0.9569
+2025-12-07 05:27:19 - RAM_Training - INFO -   Test Accuracy: 0.9566
+2025-12-07 05:27:19 - RAM_Training - INFO -   Action Loss: 0.260441
+2025-12-07 05:27:19 - RAM_Training - INFO -   Location Loss: 0.018653
+2025-12-07 05:27:19 - RAM_Training - INFO -   Value Loss: 0.043104
+2025-12-07 05:27:24 - RAM_Training - INFO - 
+2025-12-07 05:34:53 - RAM_Training - INFO - Evaluating epoch 76...
+2025-12-07 05:35:23 - RAM_Training - INFO - 
+2025-12-07 05:35:23 - RAM_Training - INFO - Epoch 76/100 Summary:
+2025-12-07 05:35:23 - RAM_Training - INFO -   Train Loss: 0.291818
+2025-12-07 05:35:23 - RAM_Training - INFO -   Train Accuracy: 0.9585
+2025-12-07 05:35:23 - RAM_Training - INFO -   Test Accuracy: 0.9579
+2025-12-07 05:35:23 - RAM_Training - INFO -   Action Loss: 0.257411
+2025-12-07 05:35:23 - RAM_Training - INFO -   Location Loss: 0.017581
+2025-12-07 05:35:23 - RAM_Training - INFO -   Value Loss: 0.041490
+2025-12-07 05:35:26 - RAM_Training - INFO - 
+2025-12-07 05:42:55 - RAM_Training - INFO - Evaluating epoch 77...
+2025-12-07 05:43:25 - RAM_Training - INFO - 
+2025-12-07 05:43:25 - RAM_Training - INFO - Epoch 77/100 Summary:
+2025-12-07 05:43:25 - RAM_Training - INFO -   Train Loss: 0.288125
+2025-12-07 05:43:25 - RAM_Training - INFO -   Train Accuracy: 0.9571
+2025-12-07 05:43:25 - RAM_Training - INFO -   Test Accuracy: 0.9552
+2025-12-07 05:43:25 - RAM_Training - INFO -   Action Loss: 0.252874
+2025-12-07 05:43:25 - RAM_Training - INFO -   Location Loss: 0.018268
+2025-12-07 05:43:25 - RAM_Training - INFO -   Value Loss: 0.042838
+2025-12-07 05:43:28 - RAM_Training - INFO - 
+2025-12-07 05:50:56 - RAM_Training - INFO - Evaluating epoch 78...
+2025-12-07 05:51:26 - RAM_Training - INFO - 
+2025-12-07 05:51:26 - RAM_Training - INFO - Epoch 78/100 Summary:
+2025-12-07 05:51:26 - RAM_Training - INFO -   Train Loss: 0.293599
+2025-12-07 05:51:26 - RAM_Training - INFO -   Train Accuracy: 0.9576
+2025-12-07 05:51:26 - RAM_Training - INFO -   Test Accuracy: 0.9593
+2025-12-07 05:51:26 - RAM_Training - INFO -   Action Loss: 0.258607
+2025-12-07 05:51:26 - RAM_Training - INFO -   Location Loss: 0.018323
+2025-12-07 05:51:26 - RAM_Training - INFO -   Value Loss: 0.042357
+2025-12-07 05:51:26 - RAM_Training - INFO -   ✓ NEW BEST MODEL! Accuracy: 0.9593
+2025-12-07 05:51:26 - RAM_Training - INFO -     Saved to: checkpoints/mnist_best.pth
+2025-12-07 05:51:30 - RAM_Training - INFO - 
+2025-12-07 05:59:09 - RAM_Training - INFO - Evaluating epoch 79...
+2025-12-07 05:59:39 - RAM_Training - INFO - 
+2025-12-07 05:59:39 - RAM_Training - INFO - Epoch 79/100 Summary:
+2025-12-07 05:59:39 - RAM_Training - INFO -   Train Loss: 0.288518
+2025-12-07 05:59:39 - RAM_Training - INFO -   Train Accuracy: 0.9586
+2025-12-07 05:59:39 - RAM_Training - INFO -   Test Accuracy: 0.9584
+2025-12-07 05:59:39 - RAM_Training - INFO -   Action Loss: 0.254207
+2025-12-07 05:59:39 - RAM_Training - INFO -   Location Loss: 0.018429
+2025-12-07 05:59:39 - RAM_Training - INFO -   Value Loss: 0.041391
+2025-12-07 05:59:44 - RAM_Training - INFO - 
+2025-12-07 06:07:15 - RAM_Training - INFO - Evaluating epoch 80...
+2025-12-07 06:07:45 - RAM_Training - INFO - 
+2025-12-07 06:07:45 - RAM_Training - INFO - Epoch 80/100 Summary:
+2025-12-07 06:07:45 - RAM_Training - INFO -   Train Loss: 0.286727
+2025-12-07 06:07:45 - RAM_Training - INFO -   Train Accuracy: 0.9582
+2025-12-07 06:07:45 - RAM_Training - INFO -   Test Accuracy: 0.9593
+2025-12-07 06:07:45 - RAM_Training - INFO -   Action Loss: 0.252535
+2025-12-07 06:07:45 - RAM_Training - INFO -   Location Loss: 0.017756
+2025-12-07 06:07:45 - RAM_Training - INFO -   Value Loss: 0.041790
+2025-12-07 06:07:48 - RAM_Training - INFO - 
+2025-12-07 06:15:15 - RAM_Training - INFO - Evaluating epoch 81...
+2025-12-07 06:15:44 - RAM_Training - INFO - 
+2025-12-07 06:15:44 - RAM_Training - INFO - Epoch 81/100 Summary:
+2025-12-07 06:15:44 - RAM_Training - INFO -   Train Loss: 0.282153
+2025-12-07 06:15:44 - RAM_Training - INFO -   Train Accuracy: 0.9585
+2025-12-07 06:15:44 - RAM_Training - INFO -   Test Accuracy: 0.9573
+2025-12-07 06:15:44 - RAM_Training - INFO -   Action Loss: 0.247927
+2025-12-07 06:15:44 - RAM_Training - INFO -   Location Loss: 0.017661
+2025-12-07 06:15:44 - RAM_Training - INFO -   Value Loss: 0.041457
+2025-12-07 06:15:48 - RAM_Training - INFO - 
+2025-12-07 06:23:17 - RAM_Training - INFO - Evaluating epoch 82...
+2025-12-07 06:23:47 - RAM_Training - INFO - 
+2025-12-07 06:23:47 - RAM_Training - INFO - Epoch 82/100 Summary:
+2025-12-07 06:23:47 - RAM_Training - INFO -   Train Loss: 0.288048
+2025-12-07 06:23:47 - RAM_Training - INFO -   Train Accuracy: 0.9575
+2025-12-07 06:23:47 - RAM_Training - INFO -   Test Accuracy: 0.9603
+2025-12-07 06:23:47 - RAM_Training - INFO -   Action Loss: 0.252247
+2025-12-07 06:23:47 - RAM_Training - INFO -   Location Loss: 0.018880
+2025-12-07 06:23:47 - RAM_Training - INFO -   Value Loss: 0.042439
+2025-12-07 06:23:47 - RAM_Training - INFO -   ✓ NEW BEST MODEL! Accuracy: 0.9603
+2025-12-07 06:23:47 - RAM_Training - INFO -     Saved to: checkpoints/mnist_best.pth
+2025-12-07 06:23:51 - RAM_Training - INFO - 
+2025-12-07 06:31:20 - RAM_Training - INFO - Evaluating epoch 83...
+2025-12-07 06:31:49 - RAM_Training - INFO - 
+2025-12-07 06:31:49 - RAM_Training - INFO - Epoch 83/100 Summary:
+2025-12-07 06:31:49 - RAM_Training - INFO -   Train Loss: 0.289141
+2025-12-07 06:31:49 - RAM_Training - INFO -   Train Accuracy: 0.9586
+2025-12-07 06:31:49 - RAM_Training - INFO -   Test Accuracy: 0.9613
+2025-12-07 06:31:49 - RAM_Training - INFO -   Action Loss: 0.254460
+2025-12-07 06:31:49 - RAM_Training - INFO -   Location Loss: 0.018767
+2025-12-07 06:31:49 - RAM_Training - INFO -   Value Loss: 0.041408
+2025-12-07 06:31:49 - RAM_Training - INFO -   ✓ NEW BEST MODEL! Accuracy: 0.9613
+2025-12-07 06:31:49 - RAM_Training - INFO -     Saved to: checkpoints/mnist_best.pth
+2025-12-07 06:31:54 - RAM_Training - INFO - 
+2025-12-07 06:39:25 - RAM_Training - INFO - Evaluating epoch 84...
+2025-12-07 06:39:54 - RAM_Training - INFO - 
+2025-12-07 06:39:54 - RAM_Training - INFO - Epoch 84/100 Summary:
+2025-12-07 06:39:54 - RAM_Training - INFO -   Train Loss: 0.285614
+2025-12-07 06:39:54 - RAM_Training - INFO -   Train Accuracy: 0.9586
+2025-12-07 06:39:54 - RAM_Training - INFO -   Test Accuracy: 0.9604
+2025-12-07 06:39:54 - RAM_Training - INFO -   Action Loss: 0.250699
+2025-12-07 06:39:54 - RAM_Training - INFO -   Location Loss: 0.018737
+2025-12-07 06:39:54 - RAM_Training - INFO -   Value Loss: 0.041407
+2025-12-07 06:39:58 - RAM_Training - INFO - 
+2025-12-07 06:47:24 - RAM_Training - INFO - Evaluating epoch 85...
+2025-12-07 06:47:54 - RAM_Training - INFO - 
+2025-12-07 06:47:54 - RAM_Training - INFO - Epoch 85/100 Summary:
+2025-12-07 06:47:54 - RAM_Training - INFO -   Train Loss: 0.299043
+2025-12-07 06:47:54 - RAM_Training - INFO -   Train Accuracy: 0.9571
+2025-12-07 06:47:54 - RAM_Training - INFO -   Test Accuracy: 0.9550
+2025-12-07 06:47:54 - RAM_Training - INFO -   Action Loss: 0.263805
+2025-12-07 06:47:54 - RAM_Training - INFO -   Location Loss: 0.018451
+2025-12-07 06:47:54 - RAM_Training - INFO -   Value Loss: 0.042888
+2025-12-07 06:47:57 - RAM_Training - INFO - 
+2025-12-07 06:55:26 - RAM_Training - INFO - Evaluating epoch 86...
+2025-12-07 06:55:56 - RAM_Training - INFO - 
+2025-12-07 06:55:56 - RAM_Training - INFO - Epoch 86/100 Summary:
+2025-12-07 06:55:56 - RAM_Training - INFO -   Train Loss: 0.280115
+2025-12-07 06:55:56 - RAM_Training - INFO -   Train Accuracy: 0.9587
+2025-12-07 06:55:56 - RAM_Training - INFO -   Test Accuracy: 0.9573
+2025-12-07 06:55:56 - RAM_Training - INFO -   Action Loss: 0.245947
+2025-12-07 06:55:56 - RAM_Training - INFO -   Location Loss: 0.018046
+2025-12-07 06:55:56 - RAM_Training - INFO -   Value Loss: 0.041291
+2025-12-07 06:55:59 - RAM_Training - INFO - 
+2025-12-07 07:03:33 - RAM_Training - INFO - Evaluating epoch 87...
+2025-12-07 07:04:02 - RAM_Training - INFO - 
+2025-12-07 07:04:02 - RAM_Training - INFO - Epoch 87/100 Summary:
+2025-12-07 07:04:02 - RAM_Training - INFO -   Train Loss: 0.284328
+2025-12-07 07:04:02 - RAM_Training - INFO -   Train Accuracy: 0.9592
+2025-12-07 07:04:02 - RAM_Training - INFO -   Test Accuracy: 0.9594
+2025-12-07 07:04:02 - RAM_Training - INFO -   Action Loss: 0.250141
+2025-12-07 07:04:02 - RAM_Training - INFO -   Location Loss: 0.017897
+2025-12-07 07:04:02 - RAM_Training - INFO -   Value Loss: 0.040775
+2025-12-07 07:04:07 - RAM_Training - INFO - 
+2025-12-07 07:11:42 - RAM_Training - INFO - Evaluating epoch 88...
+2025-12-07 07:12:11 - RAM_Training - INFO - 
+2025-12-07 07:12:11 - RAM_Training - INFO - Epoch 88/100 Summary:
+2025-12-07 07:12:11 - RAM_Training - INFO -   Train Loss: 0.284813
+2025-12-07 07:12:11 - RAM_Training - INFO -   Train Accuracy: 0.9587
+2025-12-07 07:12:11 - RAM_Training - INFO -   Test Accuracy: 0.9601
+2025-12-07 07:12:11 - RAM_Training - INFO -   Action Loss: 0.250418
+2025-12-07 07:12:11 - RAM_Training - INFO -   Location Loss: 0.018500
+2025-12-07 07:12:11 - RAM_Training - INFO -   Value Loss: 0.041275
+2025-12-07 07:12:15 - RAM_Training - INFO - 
+2025-12-07 07:19:42 - RAM_Training - INFO - Evaluating epoch 89...
+2025-12-07 07:20:12 - RAM_Training - INFO - 
+2025-12-07 07:20:12 - RAM_Training - INFO - Epoch 89/100 Summary:
+2025-12-07 07:20:12 - RAM_Training - INFO -   Train Loss: 0.279092
+2025-12-07 07:20:12 - RAM_Training - INFO -   Train Accuracy: 0.9588
+2025-12-07 07:20:12 - RAM_Training - INFO -   Test Accuracy: 0.9623
+2025-12-07 07:20:12 - RAM_Training - INFO -   Action Loss: 0.244953
+2025-12-07 07:20:12 - RAM_Training - INFO -   Location Loss: 0.017854
+2025-12-07 07:20:12 - RAM_Training - INFO -   Value Loss: 0.041207
+2025-12-07 07:20:12 - RAM_Training - INFO -   ✓ NEW BEST MODEL! Accuracy: 0.9623
+2025-12-07 07:20:12 - RAM_Training - INFO -     Saved to: checkpoints/mnist_best.pth
+2025-12-07 07:20:15 - RAM_Training - INFO - 
+2025-12-07 07:27:44 - RAM_Training - INFO - Evaluating epoch 90...
+2025-12-07 07:28:13 - RAM_Training - INFO - 
+2025-12-07 07:28:13 - RAM_Training - INFO - Epoch 90/100 Summary:
+2025-12-07 07:28:13 - RAM_Training - INFO -   Train Loss: 0.274542
+2025-12-07 07:28:13 - RAM_Training - INFO -   Train Accuracy: 0.9595
+2025-12-07 07:28:13 - RAM_Training - INFO -   Test Accuracy: 0.9620
+2025-12-07 07:28:13 - RAM_Training - INFO -   Action Loss: 0.241875
+2025-12-07 07:28:13 - RAM_Training - INFO -   Location Loss: 0.017519
+2025-12-07 07:28:13 - RAM_Training - INFO -   Value Loss: 0.040442
+2025-12-07 07:28:17 - RAM_Training - INFO - 
+2025-12-07 07:35:45 - RAM_Training - INFO - Evaluating epoch 91...
+2025-12-07 07:36:15 - RAM_Training - INFO - 
+2025-12-07 07:36:15 - RAM_Training - INFO - Epoch 91/100 Summary:
+2025-12-07 07:36:15 - RAM_Training - INFO -   Train Loss: 0.279109
+2025-12-07 07:36:15 - RAM_Training - INFO -   Train Accuracy: 0.9591
+2025-12-07 07:36:15 - RAM_Training - INFO -   Test Accuracy: 0.9604
+2025-12-07 07:36:15 - RAM_Training - INFO -   Action Loss: 0.244936
+2025-12-07 07:36:15 - RAM_Training - INFO -   Location Loss: 0.017760
+2025-12-07 07:36:15 - RAM_Training - INFO -   Value Loss: 0.040892
+2025-12-07 07:36:18 - RAM_Training - INFO - 
+2025-12-07 07:43:51 - RAM_Training - INFO - Evaluating epoch 92...
+2025-12-07 07:44:21 - RAM_Training - INFO - 
+2025-12-07 07:44:21 - RAM_Training - INFO - Epoch 92/100 Summary:
+2025-12-07 07:44:21 - RAM_Training - INFO -   Train Loss: 0.271735
+2025-12-07 07:44:21 - RAM_Training - INFO -   Train Accuracy: 0.9599
+2025-12-07 07:44:21 - RAM_Training - INFO -   Test Accuracy: 0.9582
+2025-12-07 07:44:21 - RAM_Training - INFO -   Action Loss: 0.238080
+2025-12-07 07:44:21 - RAM_Training - INFO -   Location Loss: 0.017798
+2025-12-07 07:44:21 - RAM_Training - INFO -   Value Loss: 0.040126
+2025-12-07 07:44:25 - RAM_Training - INFO - 
+2025-12-07 07:51:53 - RAM_Training - INFO - Evaluating epoch 93...
+2025-12-07 07:52:23 - RAM_Training - INFO - 
+2025-12-07 07:52:23 - RAM_Training - INFO - Epoch 93/100 Summary:
+2025-12-07 07:52:23 - RAM_Training - INFO -   Train Loss: 0.270764
+2025-12-07 07:52:23 - RAM_Training - INFO -   Train Accuracy: 0.9609
+2025-12-07 07:52:23 - RAM_Training - INFO -   Test Accuracy: 0.9587
+2025-12-07 07:52:23 - RAM_Training - INFO -   Action Loss: 0.238218
+2025-12-07 07:52:23 - RAM_Training - INFO -   Location Loss: 0.017131
+2025-12-07 07:52:23 - RAM_Training - INFO -   Value Loss: 0.039127
+2025-12-07 07:52:26 - RAM_Training - INFO - 
+2025-12-07 07:59:55 - RAM_Training - INFO - Evaluating epoch 94...
+2025-12-07 08:00:24 - RAM_Training - INFO - 
+2025-12-07 08:00:24 - RAM_Training - INFO - Epoch 94/100 Summary:
+2025-12-07 08:00:24 - RAM_Training - INFO -   Train Loss: 0.266505
+2025-12-07 08:00:24 - RAM_Training - INFO -   Train Accuracy: 0.9607
+2025-12-07 08:00:24 - RAM_Training - INFO -   Test Accuracy: 0.9561
+2025-12-07 08:00:24 - RAM_Training - INFO -   Action Loss: 0.234368
+2025-12-07 08:00:24 - RAM_Training - INFO -   Location Loss: 0.017641
+2025-12-07 08:00:24 - RAM_Training - INFO -   Value Loss: 0.039243
+2025-12-07 08:00:28 - RAM_Training - INFO - 
+2025-12-07 08:08:05 - RAM_Training - INFO - Evaluating epoch 95...
+2025-12-07 08:08:35 - RAM_Training - INFO - 
+2025-12-07 08:08:35 - RAM_Training - INFO - Epoch 95/100 Summary:
+2025-12-07 08:08:35 - RAM_Training - INFO -   Train Loss: 0.266782
+2025-12-07 08:08:35 - RAM_Training - INFO -   Train Accuracy: 0.9611
+2025-12-07 08:08:35 - RAM_Training - INFO -   Test Accuracy: 0.9610
+2025-12-07 08:08:35 - RAM_Training - INFO -   Action Loss: 0.234228
+2025-12-07 08:08:35 - RAM_Training - INFO -   Location Loss: 0.017444
+2025-12-07 08:08:35 - RAM_Training - INFO -   Value Loss: 0.038846
+2025-12-07 08:08:39 - RAM_Training - INFO - 
+2025-12-07 08:16:09 - RAM_Training - INFO - Evaluating epoch 96...
+2025-12-07 08:16:39 - RAM_Training - INFO - 
+2025-12-07 08:16:39 - RAM_Training - INFO - Epoch 96/100 Summary:
+2025-12-07 08:16:39 - RAM_Training - INFO -   Train Loss: 0.264124
+2025-12-07 08:16:39 - RAM_Training - INFO -   Train Accuracy: 0.9606
+2025-12-07 08:16:39 - RAM_Training - INFO -   Test Accuracy: 0.9610
+2025-12-07 08:16:39 - RAM_Training - INFO -   Action Loss: 0.232251
+2025-12-07 08:16:39 - RAM_Training - INFO -   Location Loss: 0.016802
+2025-12-07 08:16:39 - RAM_Training - INFO -   Value Loss: 0.039426
+2025-12-07 08:16:42 - RAM_Training - INFO - 
+2025-12-07 08:24:10 - RAM_Training - INFO - Evaluating epoch 97...
+2025-12-07 08:24:40 - RAM_Training - INFO - 
+2025-12-07 08:24:40 - RAM_Training - INFO - Epoch 97/100 Summary:
+2025-12-07 08:24:40 - RAM_Training - INFO -   Train Loss: 0.272398
+2025-12-07 08:24:40 - RAM_Training - INFO -   Train Accuracy: 0.9600
+2025-12-07 08:24:40 - RAM_Training - INFO -   Test Accuracy: 0.9626
+2025-12-07 08:24:40 - RAM_Training - INFO -   Action Loss: 0.239454
+2025-12-07 08:24:40 - RAM_Training - INFO -   Location Loss: 0.017074
+2025-12-07 08:24:40 - RAM_Training - INFO -   Value Loss: 0.039977
+2025-12-07 08:24:40 - RAM_Training - INFO -   ✓ NEW BEST MODEL! Accuracy: 0.9626
+2025-12-07 08:24:40 - RAM_Training - INFO -     Saved to: checkpoints/mnist_best.pth
+2025-12-07 08:24:43 - RAM_Training - INFO - 
+2025-12-07 08:32:15 - RAM_Training - INFO - Evaluating epoch 98...
+2025-12-07 08:32:45 - RAM_Training - INFO - 
+2025-12-07 08:32:45 - RAM_Training - INFO - Epoch 98/100 Summary:
+2025-12-07 08:32:45 - RAM_Training - INFO -   Train Loss: 0.271914
+2025-12-07 08:32:45 - RAM_Training - INFO -   Train Accuracy: 0.9610
+2025-12-07 08:32:45 - RAM_Training - INFO -   Test Accuracy: 0.9596
+2025-12-07 08:32:45 - RAM_Training - INFO -   Action Loss: 0.239135
+2025-12-07 08:32:45 - RAM_Training - INFO -   Location Loss: 0.017720
+2025-12-07 08:32:45 - RAM_Training - INFO -   Value Loss: 0.038995
+2025-12-07 08:32:50 - RAM_Training - INFO - 
+2025-12-07 08:40:23 - RAM_Training - INFO - Evaluating epoch 99...
+2025-12-07 08:40:52 - RAM_Training - INFO - 
+2025-12-07 08:40:52 - RAM_Training - INFO - Epoch 99/100 Summary:
+2025-12-07 08:40:52 - RAM_Training - INFO -   Train Loss: 0.271786
+2025-12-07 08:40:52 - RAM_Training - INFO -   Train Accuracy: 0.9597
+2025-12-07 08:40:52 - RAM_Training - INFO -   Test Accuracy: 0.9577
+2025-12-07 08:40:52 - RAM_Training - INFO -   Action Loss: 0.238168
+2025-12-07 08:40:52 - RAM_Training - INFO -   Location Loss: 0.018477
+2025-12-07 08:40:52 - RAM_Training - INFO -   Value Loss: 0.040326
+2025-12-07 08:40:56 - RAM_Training - INFO - 
+2025-12-07 08:48:28 - RAM_Training - INFO - Evaluating epoch 100...
+2025-12-07 08:48:58 - RAM_Training - INFO - 
+2025-12-07 08:48:58 - RAM_Training - INFO - Epoch 100/100 Summary:
+2025-12-07 08:48:58 - RAM_Training - INFO -   Train Loss: 0.255608
+2025-12-07 08:48:58 - RAM_Training - INFO -   Train Accuracy: 0.9620
+2025-12-07 08:48:58 - RAM_Training - INFO -   Test Accuracy: 0.9613
+2025-12-07 08:48:58 - RAM_Training - INFO -   Action Loss: 0.224948
+2025-12-07 08:48:58 - RAM_Training - INFO -   Location Loss: 0.016920
+2025-12-07 08:48:58 - RAM_Training - INFO -   Value Loss: 0.037946
+2025-12-07 08:49:02 - RAM_Training - INFO - 
+2025-12-07 08:49:02 - RAM_Training - INFO - ================================================================================
+2025-12-07 08:49:02 - RAM_Training - INFO - TRAINING COMPLETED!
+2025-12-07 08:49:02 - RAM_Training - INFO - ================================================================================
+2025-12-07 08:49:02 - RAM_Training - INFO - Best Test Accuracy: 0.9626
+2025-12-07 08:49:02 - RAM_Training - INFO - Best Epoch: 97
+2025-12-07 08:49:02 - RAM_Training - INFO - Total Epochs: 100
+2025-12-07 08:49:02 - RAM_Training - INFO - 
+2025-12-07 08:49:02 - RAM_Training - INFO - Saved Files:
+2025-12-07 08:49:02 - RAM_Training - INFO -   Best Model: checkpoints/mnist_best.pth
+2025-12-07 08:49:02 - RAM_Training - INFO -   Latest Model: checkpoints/mnist_latest.pth
+2025-12-07 08:49:02 - RAM_Training - INFO -   Training Plots: plots/mnist_g6_h256_training_curves.png
+2025-12-07 08:49:02 - RAM_Training - INFO -   Loss Plot: plots/mnist_g6_h256_training_curves_loss_only.png
+2025-12-07 08:49:02 - RAM_Training - INFO - ================================================================================
